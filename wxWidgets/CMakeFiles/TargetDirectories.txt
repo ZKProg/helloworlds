@@ -1,3 +1,0 @@
-/home/zkprog/Programming/helloworlds/wxWidgets/CMakeFiles/rebuild_cache.dir
-/home/zkprog/Programming/helloworlds/wxWidgets/CMakeFiles/edit_cache.dir
-/home/zkprog/Programming/helloworlds/wxWidgets/CMakeFiles/helloworld.dir
