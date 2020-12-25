@@ -1,2 +1,6 @@
 wxWidgets/CMakeFiles/
 wxWidgets/CMakeCache.txt
+wxWidgets/Makefile
+wxWidgets/.#*
+wxWidgets/#*
+wxWidgets/cmake_install.cmake
