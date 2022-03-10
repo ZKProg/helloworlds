@@ -1,0 +1,42 @@
+* ASM x86 boot program
+
+_No quite an os_... But a proof of concept for an assembly bootable piece of 
+software.
+
+** Code
+
+- _BITS 16_ directive is given, since the bios interrupts are callable from the real mode
+- 0x07C0 is the address at which the bios is looking for the program to run at boot.
+- A stack of 4096 bytes is created, on top of the 512 byte MBR. Which leads to:
+  -> (4096 bytes + 512 bytes) / 16 = 288 bytes
+  -> since the real mode addresses the memory 16 bits at a times
+- The result is stored in the stack segment register
+- We then reset the sp to the bottom of the stack. Remember that the stack is growing from the bottom down.
+- *finally*, for the memory setup, we set the data segment at 0x07c0, where the code to execute is to be executed from.
+
+The print string bios interrupts takes the data to print from the source register. We call the lodsb routine until the byte 0 is found. Int 10h (Bios interrupt) is called to print out to screen the characters.
+
+The end of the program pads the remaining of the Master Boot Record with 0s, minus the 2 last bytes written with the typical MBR sought for signature 0xAA55.
+
+** Compilation
+*** Compile to bootable bin
+
+|---------+----------------------------------|
+| command | nasm -f bin file.asm -o file.bin |
+|---------+----------------------------------|
+
+*** Copy the bootable bin to floppy disk
+
+|---------+---------------------------------------------------------|
+| command | dd status=noxfer conv=notrunc if=boot.bin of=floppy.img |
+|---------+---------------------------------------------------------|
+
+*** Boot from the created floppy
+
+Either:
+1- boot from a real floppy on a real computer
+2- boot from a virtual machine. For example, qemu:
+
+|---------+------------------------------------|
+| command | qemu-system-x86_64 -fda floopy.img |
+|---------+------------------------------------|

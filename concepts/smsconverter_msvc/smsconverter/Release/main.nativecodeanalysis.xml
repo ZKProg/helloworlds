@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\john\source\repos\smsconverter\smsconverter\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>54</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>Incorrect order of operations:  relational operators have higher precedence than bitwise operators.</DESCRIPTION>
+    <FUNCTION>SDL_main</FUNCTION>
+    <DECORATED>SDL_main</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\john\programming\libs\boost_1_66_0\boost\numeric\ublas\</FILEPATH>
+      <FILENAME>storage.hpp</FILENAME>
+      <LINE>306</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6269</DEFECTCODE>
+    <DESCRIPTION>Possibly incorrect order of operations:  dereference ignored.</DESCRIPTION>
+    <FUNCTION>boost::numeric::ublas::unbounded_array&lt;int,std::allocator&lt;int&gt; &gt;::iterator_destroy</FUNCTION>
+    <DECORATED>?iterator_destroy@?$unbounded_array@HV?$allocator@H@std@@@ublas@numeric@boost@@CAXAAPAH@Z</DECORATED>
+    <FUNCLINE>305</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,12 @@
+﻿  main.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+C:\Users\John\source\repos\smsconverter\smsconverter\main.cpp(54,38): warning C4554:  '&': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\John\source\repos\smsconverter\smsconverter\main.cpp(218,24): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\John\source\repos\smsconverter\smsconverter\main.cpp(219,25): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\John\source\repos\smsconverter\smsconverter\main.cpp(241,23): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\John\source\repos\smsconverter\smsconverter\main.cpp(245,24): warning C4018:  '<': signed/unsigned mismatch
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 277 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  smsconverter.vcxproj -> C:\Users\John\source\repos\smsconverter\Release\smsconverter.exe

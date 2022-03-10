@@ -1,0 +1,4 @@
+﻿  openmp.cpp
+C:\Users\John\source\repos\openmp\openmp\openmp.cpp(47): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+C:\Users\John\source\repos\openmp\openmp\openmp.cpp(81): warning C4102: 'finally': unreferenced label
+  openmp.vcxproj -> C:\Users\John\source\repos\openmp\Debug\openmp.exe

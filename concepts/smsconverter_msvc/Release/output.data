@@ -1,0 +1,1569 @@
+Palette:
+.db $0,$10,$10,$14,$14,$15,$15,$15,$15,$1a,$1b,$2f,$3f,$2f,$3f,$3f
+PaletteEnd:
+
+ImageData:
+; Tile index 0
+.db $f7 $f7 $8 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 1
+.db $bf $bf $40 $0 $bf $bf $40 $0 $bf $bf $40 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2
+.db $83 $83 $7c $0 $c3 $c3 $3c $0 $c5 $c5 $3a $0 $87 $87 $78 $0 $47 $47 $b8 $0 $7f $7f $80 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 3
+.db $81 $80 $7f $0 $3 $0 $ff $0 $81 $80 $7f $0 $80 $80 $7f $0 $e0 $e0 $1f $0 $e0 $e0 $1f $0 $f0 $f0 $f $0 $0 $0 $ff $0 
+; Tile index 4
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $7f $0 $ff $0 $7f $0 $ff $0 
+; Tile index 5
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $fd $2 $ff $0 $ff $0 $ff $0 
+; Tile index 6
+.db $f8 $7 $ff $0 $fe $1 $ff $0 $f2 $d $ff $0 $f6 $9 $ff $0 $fe $1 $ff $0 $ff $0 $ff $0 $fa $5 $ff $0 $fe $1 $ff $0 
+; Tile index 7
+.db $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $40 $bf $ff $0 
+; Tile index 8
+.db $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 9
+.db $3f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $0 $ff $ff $ff $0 $7f $ff $ff $0 $7b $ff $ff $0 $7b $ff $ff $0 $33 $ff $ff $0 
+; Tile index a
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index b
+.db $ff $ff $ff $0 $fe $fe $fe $1 $fe $fe $fe $1 $bc $bc $bc $43 $3c $3c $3c $c3 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index c
+.db $1f $1f $1f $e0 $3f $3f $3f $c0 $3f $3f $3f $c0 $7f $7f $7f $80 $ff $ff $ff $0 $fe $fe $fe $1 $f6 $f6 $f6 $9 $f7 $f7 $f7 $8 
+; Tile index d
+.db $0 $0 $0 $ff $80 $80 $80 $7f $80 $80 $80 $7f $80 $80 $80 $7f $80 $80 $80 $7f $0 $0 $0 $ff $9e $9e $9e $61 $fc $fc $fc $3 
+; Tile index e
+.db $0 $0 $0 $ff $0 $0 $0 $ff $3 $0 $0 $ff $7 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index f
+.db $f $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $f8 $0 $0 $ff $11 $0 $0 $ff $3 $0 $0 $ff $3 $0 $0 $ff $1f $0 $0 $ff 
+; Tile index 10
+.db $ff $2 $0 $ff $ff $3 $0 $ff $ff $7 $0 $ff $fe $16 $1 $ff $ff $7 $0 $ff $ff $1 $0 $ff $ff $1 $0 $ff $ef $1 $0 $ff 
+; Tile index 11
+.db $ff $ff $0 $ff $fe $fe $1 $ff $f8 $f8 $7 $ff $0 $0 $ff $ff $80 $80 $7f $ff $fe $fe $1 $ff $ff $ff $0 $ff $ff $ff $0 $ff 
+; Tile index 12
+.db $e0 $e0 $1f $ff $0 $0 $ff $ff $0 $2 $ff $ff $0 $3 $ff $ff $0 $1f $ff $ff $0 $1f $ff $ff $0 $1f $ff $ff $0 $f $ff $ff 
+; Tile index 13
+.db $0 $0 $ff $ff $0 $e $ff $ff $0 $1f $ff $ff $0 $3f $ff $ff $0 $3f $ff $ff $3 $3e $fc $ff $a $e8 $f0 $fc $28 $10 $d0 $e0 
+; Tile index 14
+.db $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $f9 $ff $ff $66 $c9 $8f $f0 $40 $0 $0 $80 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 15
+.db $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $e0 $af $9f $7f $0 $13 $17 $f $4 $0 $5 $3 $0 $1 $1 $0 
+; Tile index 16
+.db $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $80 $7f $7f $ff 
+; Tile index 17
+.db $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff 
+; Tile index 18
+.db $0 $e0 $ff $ff $0 $f0 $ff $ff $0 $f0 $ff $ff $0 $f0 $ff $ff $0 $f8 $ff $ff $0 $f8 $ff $ff $0 $fc $ff $ff $0 $fe $ff $ff 
+; Tile index 19
+.db $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff 
+; Tile index 1a
+.db $7f $7f $80 $ff $ff $ff $0 $ff $7f $7f $80 $ff $3f $3f $c0 $ff $3f $3f $c0 $ff $3f $3f $c0 $ff $3f $3f $c0 $ff $1f $1f $e0 $ff 
+; Tile index 1b
+.db $ff $e0 $0 $ff $ff $f0 $0 $ff $ff $f0 $0 $ff $ff $f0 $0 $ff $ff $f0 $0 $ff $ff $fc $0 $ff $ff $fc $0 $ff $ff $f8 $0 $ff 
+; Tile index 1c
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index 1d
+.db $80 $0 $0 $ff $80 $0 $0 $ff $80 $0 $0 $ff $80 $0 $0 $ff $80 $0 $0 $ff $c0 $0 $0 $ff $c0 $0 $0 $ff $e0 $0 $0 $ff 
+; Tile index 1e
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 1f
+.db $0 $0 $0 $ff $8 $8 $8 $f7 $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 20
+.db $7f $ff $0 $0 $3f $ff $0 $0 $7f $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $3f $ff $0 $0 
+; Tile index 21
+.db $ff $ff $0 $0 $ff $ff $0 $0 $fd $fd $2 $0 $f0 $f0 $f $0 $f0 $f0 $f $0 $fc $fc $3 $0 $fc $fc $3 $0 $fc $fc $3 $0 
+; Tile index 22
+.db $ff $ff $0 $0 $ff $ff $0 $0 $7f $7f $80 $0 $7f $7f $80 $0 $7f $7f $80 $0 $6a $6a $95 $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 23
+.db $0 $0 $ff $0 $80 $80 $7f $0 $0 $0 $ff $0 $80 $80 $7f $0 $0 $0 $ff $0 $80 $80 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 24
+.db $3f $0 $ff $0 $1f $0 $ff $0 $1f $0 $ff $0 $1f $0 $ff $0 $f $0 $ff $0 $7 $0 $ff $0 $7 $0 $ff $0 $7 $0 $ff $0 
+; Tile index 25
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 26
+.db $fe $1 $ff $0 $fe $1 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $f0 $f $ff $0 $f0 $f $ff $0 $e0 $1f $ff $0 
+; Tile index 27
+.db $c0 $3f $ff $0 $80 $7f $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 28
+.db $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 29
+.db $3 $ff $ff $0 $6 $ff $ff $0 $8 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $10 $ff $ff $0 $1c $ff $ff $0 
+; Tile index 2a
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $7f $ff $ff $0 $3f $ff $ff $0 $f $ff $ff $0 $f $ff $ff $0 $3f $ff $ff $0 
+; Tile index 2b
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $bf $bf $bf $40 $3f $3f $3f $c0 $8f $8f $8f $70 
+; Tile index 2c
+.db $ff $ff $ff $0 $fc $fc $fc $3 $fc $fc $fc $3 $ff $ff $ff $0 $ef $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $18 $18 $18 $e7 
+; Tile index 2d
+.db $f0 $f0 $f0 $f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $80 $80 $80 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 2e
+.db $0 $0 $0 $ff $0 $0 $0 $ff $3 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $1 $0 $0 $ff 
+; Tile index 2f
+.db $3f $0 $0 $ff $7f $0 $0 $ff $1f $0 $0 $ff $3f $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index 30
+.db $ef $1 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $1 $0 $ff $ff $3 $0 $ff $ff $3 $0 $ff $ff $0 $0 $ff 
+; Tile index 31
+.db $ff $ff $0 $ff $fe $fe $1 $ff $fe $5e $1 $ff $fc $1c $3 $ff $f8 $f8 $7 $ff $fc $fc $3 $ff $fc $fc $3 $ff $fc $fc $3 $ff 
+; Tile index 32
+.db $0 $4 $ff $ff $1 $1 $fe $ff $3 $0 $fd $fe $8 $8 $f2 $fc $14 $10 $e0 $f8 $21 $20 $c0 $f0 $0 $0 $c2 $e1 $21 $0 $84 $c3 
+; Tile index 33
+.db $a0 $80 $0 $c0 $0 $80 $80 $0 $0 $0 $0 $0 $4 $2 $6 $1 $1b $28 $27 $1f $5f $a0 $9f $7f $9f $e0 $1f $ff $3f $c0 $3f $ff 
+; Tile index 34
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $ff $3f $0 $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff 
+; Tile index 35
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $f9 $e1 $1 $fe $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff 
+; Tile index 36
+.db $40 $3f $bf $7f $0 $4f $1f $3f $18 $7 $17 $f $c0 $1 $83 $7 $27 $48 $8a $f1 $e7 $1b $e3 $fc $e2 $1c $e0 $ff $e2 $1c $e0 $ff 
+; Tile index 37
+.db $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $80 $ff $7f $ff $40 $7f $3f $ff $c0 $9f $bf $7f 
+; Tile index 38
+.db $0 $fe $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff 
+; Tile index 39
+.db $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $80 $ff $ff $0 $80 $ff $ff $0 $c0 $ff $ff $0 $c0 $ff $ff 
+; Tile index 3a
+.db $1f $1f $e0 $ff $3f $3f $c0 $ff $1f $1f $e0 $ff $f $f $f0 $ff $f $f $f0 $ff $f $f $f0 $ff $f $f $f0 $ff $3 $3 $fc $ff 
+; Tile index 3b
+.db $ff $f8 $0 $ff $ff $f8 $0 $ff $ff $fc $0 $ff $ff $fc $0 $ff $ff $fc $0 $ff $ff $ff $0 $ff $ff $fe $0 $ff $ff $fe $0 $ff 
+; Tile index 3c
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index 3d
+.db $e0 $0 $0 $ff $e0 $0 $0 $ff $e0 $0 $0 $ff $e0 $0 $0 $ff $e0 $0 $0 $ff $f0 $0 $0 $ff $f8 $0 $0 $ff $f8 $0 $0 $ff 
+; Tile index 3e
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 3f
+.db $0 $0 $0 $ff $80 $80 $80 $7f $20 $20 $20 $df $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 40
+.db $f $ff $0 $0 $2f $ff $0 $0 $3f $ff $0 $0 $bf $ff $0 $0 $ff $ff $0 $0 $7f $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 41
+.db $fe $fe $1 $0 $e8 $e8 $17 $0 $e0 $e0 $1f $0 $c0 $c0 $3f $0 $80 $80 $7f $0 $80 $80 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 42
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 43
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $a0 $a0 $5f $0 
+; Tile index 44
+.db $7 $0 $ff $0 $7 $0 $ff $0 $7 $0 $ff $0 $3 $0 $ff $0 $1 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 45
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $7f $0 $ff $0 $3f $0 $ff $0 
+; Tile index 46
+.db $f0 $f $ff $0 $fc $3 $ff $0 $fe $1 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 47
+.db $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $80 $7f $ff $0 
+; Tile index 48
+.db $7 $ff $ff $0 $3 $ff $ff $0 $1 $ff $ff $0 $1 $ff $ff $0 $1 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 49
+.db $3f $ff $ff $0 $bf $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $3f $ff $ff $0 $1f $ff $ff $0 
+; Tile index 4a
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $fc $fc $fc $3 $fc $fc $fc $3 $fc $fc $fc $3 $fc $fc $fc $3 
+; Tile index 4b
+.db $80 $80 $80 $7f $80 $80 $80 $7f $a0 $a0 $a0 $5f $70 $70 $70 $8f $60 $60 $60 $9f $60 $60 $60 $9f $60 $60 $60 $9f $0 $0 $0 $ff 
+; Tile index 4c
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 4d
+.db $2 $2 $2 $fd $3 $3 $3 $fc $3 $3 $3 $fc $3 $3 $3 $fc $37 $37 $37 $c8 $38 $38 $38 $c7 $10 $10 $10 $ef $0 $0 $0 $ff 
+; Tile index 4e
+.db $81 $80 $80 $7f $81 $80 $80 $7f $b0 $b0 $b0 $4f $e0 $e0 $e0 $1f $c0 $c0 $c0 $3f $0 $0 $0 $ff $1 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 4f
+.db $ff $0 $0 $ff $ff $0 $0 $ff $36 $0 $0 $ff $30 $0 $0 $ff $70 $0 $0 $ff $73 $0 $0 $ff $f2 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 50
+.db $ff $0 $0 $ff $7f $5 $0 $ff $ff $f $0 $ff $ff $7 $0 $ff $ff $f $0 $ff $ff $f $0 $ff $ff $1f $0 $ff $ff $1c $0 $ff 
+; Tile index 51
+.db $f8 $f8 $7 $ff $fd $fd $2 $ff $f9 $f8 $6 $ff $f0 $f0 $e $ff $e0 $e1 $1f $fe $e3 $e2 $1c $fe $e2 $e0 $1c $fe $e0 $e0 $1c $fe 
+; Tile index 52
+.db $cf $84 $44 $83 $9 $0 $8 $87 $96 $e $e $1 $90 $1f $f $0 $16 $8 $1f $0 $35 $a $1c $0 $3 $38 $1c $0 $13 $1d $38 $0 
+; Tile index 53
+.db $1f $e0 $1f $ff $83 $fc $3 $ff $61 $1e $1 $ff $43 $3c $3 $ff $82 $79 $f8 $7 $3 $0 $1 $0 $f0 $0 $0 $0 $4 $8 $f0 $0 
+; Tile index 54
+.db $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $7f $80 $7f $ff $df $a0 $9f $7f $f $10 $4f $3f $2f $10 $2f $1f 
+; Tile index 55
+.db $ff $0 $ff $ff $ff $0 $ff $ff $fe $1 $fe $ff $fc $3 $fc $ff $f5 $9 $f1 $fe $e1 $14 $e6 $f8 $cc $20 $c8 $f0 $e9 $11 $d0 $e0 
+; Tile index 56
+.db $c6 $38 $c0 $ff $1c $e0 $0 $ff $29 $cf $f $f0 $67 $84 $7 $f8 $71 $a6 $cf $0 $83 $1 $0 $0 $64 $38 $78 $0 $16 $98 $9c $60 
+; Tile index 57
+.db $80 $df $df $3f $90 $cf $ef $1f $40 $8f $ef $1f $70 $87 $ff $f $98 $f $e7 $f $0 $7 $e7 $f $e0 $6f $f $7 $78 $67 $f $7 
+; Tile index 58
+.db $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff 
+; Tile index 59
+.db $0 $e0 $ff $ff $0 $e0 $ff $ff $0 $c0 $ff $ff $0 $e0 $ff $ff $0 $f0 $ff $ff $0 $f0 $ff $ff $0 $f0 $ff $ff $0 $e0 $ff $ff 
+; Tile index 5a
+.db $3 $3 $fc $ff $1 $1 $fe $ff $3 $3 $fc $ff $3 $3 $fc $ff $3 $3 $fc $ff $f $f $f0 $ff $3 $3 $fc $ff $3 $3 $fc $ff 
+; Tile index 5b
+.db $ff $fe $0 $ff $ff $fe $0 $ff $ff $fe $0 $ff $ff $fe $0 $ff $ff $fc $0 $ff $ff $fc $0 $ff $ff $fe $0 $ff $ff $fc $0 $ff 
+; Tile index 5c
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index 5d
+.db $f8 $0 $0 $ff $f8 $0 $0 $ff $f8 $0 $0 $ff $f8 $0 $0 $ff $f8 $0 $0 $ff $f8 $0 $0 $ff $f0 $0 $0 $ff $f0 $0 $0 $ff 
+; Tile index 5e
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 5f
+.db $0 $0 $0 $ff $0 $0 $0 $ff $7 $7 $7 $f8 $f $f $f $f0 $f $f $f $f0 $f $f $f $f0 $f $f $f $f0 $f $f $f $f0 
+; Tile index 60
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 61
+.db $e0 $e0 $1f $0 $e0 $e0 $1f $0 $e0 $e0 $1f $0 $c0 $c0 $3f $0 $e0 $e0 $1f $0 $c0 $c0 $3f $0 $c2 $c2 $3d $0 $83 $83 $7c $0 
+; Tile index 62
+.db $1 $1 $fe $0 $3 $3 $fc $0 $1 $1 $fe $0 $7 $7 $f8 $0 $7 $7 $f8 $0 $7 $7 $f8 $0 $7 $7 $f8 $0 $c1 $c1 $3e $0 
+; Tile index 63
+.db $e0 $e0 $1f $0 $e0 $e0 $1f $0 $f0 $f0 $f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 64
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 65
+.db $7f $0 $ff $0 $7f $0 $ff $0 $37 $0 $ff $0 $37 $0 $ff $0 $3f $0 $ff $0 $7 $0 $ff $0 $7 $0 $ff $0 $2f $0 $ff $0 
+; Tile index 66
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 67
+.db $c0 $3f $ff $0 $f0 $f $ff $0 $f0 $f $ff $0 $f8 $7 $ff $0 $fc $3 $ff $0 $fe $1 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 68
+.db $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $7 $ff $ff $0 
+; Tile index 69
+.db $3f $ff $ff $0 $1f $ff $ff $0 $1f $ff $ff $0 $3f $ff $ff $0 $f $ff $ff $0 $3f $ff $ff $0 $7f $ff $ff $0 $ff $ff $ff $0 
+; Tile index 6a
+.db $fc $fc $fc $3 $fc $fc $fc $3 $fc $fc $fc $3 $fc $fc $fc $3 $fa $fa $fa $5 $e6 $e6 $e6 $19 $e3 $e3 $e3 $1c $ef $ef $ef $10 
+; Tile index 6b
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $c0 $c0 $c0 $3f $c6 $c6 $c6 $39 
+; Tile index 6c
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 6d
+.db $0 $0 $0 $ff $0 $0 $0 $ff $1 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $20 $20 $20 $df $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 6e
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $7 $7 $7 $f8 $f $f $f $f0 $f $f $f $f0 $7 $7 $7 $f8 
+; Tile index 6f
+.db $0 $0 $0 $ff $1 $0 $0 $ff $1 $0 $0 $ff $3 $0 $0 $ff $3 $0 $0 $ff $3 $0 $0 $ff $f $0 $0 $ff $9f $80 $80 $7f 
+; Tile index 70
+.db $ff $9 $0 $ff $ff $b $0 $ff $ff $1f $0 $ff $fe $1e $1 $ff $fe $3e $1 $ff $fc $3c $3 $ff $fe $3e $1 $ff $fe $1e $1 $ff 
+; Tile index 71
+.db $e0 $e0 $1c $fe $e0 $e0 $1c $fe $2 $2 $fe $fc $6 $4 $fa $fc $6 $4 $fa $fc $6 $4 $fa $fc $4 $6 $fa $fc $4e $4c $b2 $fc 
+; Tile index 72
+.db $35 $18 $3b $0 $22 $9 $2f $10 $26 $a $2e $11 $44 $2b $2f $10 $63 $28 $2f $10 $6f $20 $28 $10 $67 $28 $20 $10 $56 $39 $30 $0 
+; Tile index 73
+.db $52 $a4 $f8 $0 $25 $e7 $e6 $18 $de $bf $ff $0 $fc $40 $80 $0 $78 $80 $0 $0 $ff $0 $0 $0 $3 $fc $0 $0 $84 $87 $78 $0 
+; Tile index 74
+.db $13 $c $3 $1f $7f $10 $2f $1f $87 $80 $8f $7f $f $0 $47 $3f $1f $c $1b $7 $7 $4 $b $7 $8b $4 $b $7 $c2 $d $a $7 
+; Tile index 75
+.db $11 $c0 $0 $e0 $e7 $31 $d8 $e0 $8f $1b $dc $e0 $ff $10 $a0 $c0 $bf $c0 $40 $80 $c1 $7e $0 $80 $f2 $43 $7c $80 $ba $3c $3f $c0 
+; Tile index 76
+.db $a5 $98 $7e $0 $ee $10 $ff $0 $e0 $e0 $1f $0 $fd $3 $0 $0 $f1 $0 $0 $0 $f0 $0 $0 $0 $f8 $0 $0 $0 $70 $80 $0 $0 
+; Tile index 77
+.db $10 $43 $2f $7 $d4 $7 $23 $7 $54 $97 $23 $7 $c4 $d3 $23 $7 $b4 $3 $e3 $7 $74 $83 $e3 $7 $70 $3 $e3 $7 $f0 $7 $67 $3 
+; Tile index 78
+.db $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff 
+; Tile index 79
+.db $0 $f0 $ff $ff $0 $e0 $ff $ff $0 $c0 $ff $ff $0 $c0 $ff $ff $0 $c0 $ff $ff $0 $c0 $ff $ff $0 $c0 $ff $ff $0 $c0 $ff $ff 
+; Tile index 7a
+.db $3 $3 $fc $ff $3 $3 $fc $ff $3 $3 $fc $ff $3 $3 $fc $ff $7 $7 $f8 $ff $f $f $f0 $ff $1f $1f $e0 $ff $1f $1f $e0 $ff 
+; Tile index 7b
+.db $ff $ff $0 $ff $ff $fe $0 $ff $ff $fe $0 $ff $ff $fe $0 $ff $ff $fe $0 $ff $ff $fc $0 $ff $ff $fc $0 $ff $ff $f8 $0 $ff 
+; Tile index 7c
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index 7d
+.db $f8 $0 $0 $ff $f8 $0 $0 $ff $e8 $0 $0 $ff $e0 $0 $0 $ff $c0 $0 $0 $ff $e0 $0 $0 $ff $e0 $0 $0 $ff $e0 $0 $0 $ff 
+; Tile index 7e
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 7f
+.db $f $f $f $f0 $f $f $f $f0 $f $f $f $f0 $1 $1 $1 $fe $4 $4 $4 $fb $7 $7 $7 $f8 $3 $3 $3 $fc $3 $3 $3 $fc 
+; Tile index 80
+.db $7f $ff $0 $0 $7f $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $7f $ff $0 $0 $3f $ff $0 $0 $1f $ff $0 $0 $5f $ff $0 $0 
+; Tile index 81
+.db $c3 $c3 $3c $0 $c7 $c7 $38 $0 $a0 $a0 $5f $0 $fc $fc $3 $0 $fc $fc $3 $0 $fc $fc $3 $0 $be $be $41 $0 $be $be $41 $0 
+; Tile index 82
+.db $c0 $c0 $3f $0 $80 $80 $7f $0 $40 $40 $bf $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 83
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 84
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $1 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 85
+.db $37 $0 $ff $0 $ff $0 $ff $0 $f $0 $ff $0 $1f $0 $ff $0 $7f $0 $ff $0 $3f $0 $ff $0 $3f $0 $ff $0 $7 $0 $ff $0 
+; Tile index 86
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 87
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 88
+.db $6 $ff $ff $0 $87 $7f $ff $0 $81 $7f $ff $0 $c0 $3f $ff $0 $c0 $3f $ff $0 $c0 $3f $ff $0 $e0 $1f $ff $0 $f0 $f $ff $0 
+; Tile index 89
+.db $7f $ff $ff $0 $fe $fe $fe $1 $fe $fe $fe $1 $fe $fe $fe $1 $3f $ff $ff $0 $3f $ff $ff $0 $1f $ff $ff $0 $f $ff $ff $0 
+; Tile index 8a
+.db $f $f $f $f0 $f $f $f $f0 $e $e $e $f1 $f $f $f $f0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index 8b
+.db $87 $87 $87 $78 $3 $3 $3 $fc $1 $1 $1 $fe $0 $0 $0 $ff $80 $80 $80 $7f $80 $80 $80 $7f $80 $80 $80 $7f $80 $80 $80 $7f 
+; Tile index 8c
+.db $0 $0 $0 $ff $0 $0 $0 $ff $e0 $e0 $e0 $1f $30 $30 $30 $cf $18 $18 $18 $e7 $38 $38 $38 $c7 $38 $38 $38 $c7 $3c $3c $3c $c3 
+; Tile index 8d
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 8e
+.db $3 $3 $3 $fc $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 8f
+.db $1f $0 $0 $ff $1f $0 $0 $ff $1f $0 $0 $ff $3f $0 $0 $ff $3f $2 $0 $ff $3f $f $0 $ff $3f $f $0 $ff $3f $f $0 $ff 
+; Tile index 90
+.db $ff $1f $0 $ff $ff $7 $0 $ff $ff $1 $0 $ff $ff $3 $0 $ff $ff $3 $0 $ff $ff $e3 $0 $ff $ff $f1 $0 $ff $ff $e1 $0 $ff 
+; Tile index 91
+.db $7e $7c $82 $fc $7c $7e $82 $fc $fc $fe $2 $fc $fe $f1 $1 $fe $f9 $fe $0 $ff $f8 $f7 $0 $ff $f9 $f6 $0 $ff $f9 $fe $0 $ff 
+; Tile index 92
+.db $4d $b $0 $30 $46 $42 $9 $30 $25 $70 $3b $0 $af $81 $7b $0 $ff $a9 $df $0 $3e $51 $73 $8c $f3 $6d $61 $9e $ce $50 $4f $bf 
+; Tile index 93
+.db $9a $7c $ff $0 $1c $81 $81 $7e $e2 $ae $9c $7f $81 $3e $7e $ff $81 $3e $7e $ff $43 $7f $3c $ff $f0 $b1 $8f $7f $f3 $9c $f $ff 
+; Tile index 94
+.db $6c $8f $8 $7 $34 $43 $90 $f $a4 $3 $e0 $1f $fc $cb $c8 $37 $e4 $67 $0 $ff $6a $5 $c2 $ff $bf $40 $87 $ff $77 $8 $87 $ff 
+; Tile index 95
+.db $2f $2a $13 $fc $42 $39 $3d $fe $42 $3e $3c $ff $c2 $1e $3c $ff $23 $3 $1d $fe $e5 $44 $59 $be $9f $80 $d $fe $47 $1 $8e $ff 
+; Tile index 96
+.db $b0 $c0 $0 $0 $31 $40 $80 $0 $20 $80 $c0 $0 $e0 $40 $80 $0 $60 $0 $80 $0 $41 $81 $0 $0 $c0 $2 $2 $1 $3c $4b $78 $87 
+; Tile index 97
+.db $d0 $5 $67 $3 $5c $e3 $63 $7 $fc $63 $63 $7 $2a $7 $75 $3 $8 $cb $31 $7 $48 $a3 $d1 $7 $48 $42 $71 $87 $a8 $a $31 $c7 
+; Tile index 98
+.db $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $fc $ff $ff $0 $fc $ff $ff $0 $f8 $ff $ff 
+; Tile index 99
+.db $0 $c0 $ff $ff $0 $c0 $ff $ff $0 $c0 $ff $ff $0 $c0 $ff $ff $0 $c0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff 
+; Tile index 9a
+.db $3f $3f $c0 $ff $1f $1f $e0 $ff $f $f $f0 $ff $7 $7 $f8 $ff $7 $7 $f8 $ff $f $f $f0 $ff $1f $1f $e0 $ff $3f $3f $c0 $ff 
+; Tile index 9b
+.db $ff $f8 $0 $ff $ff $fe $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $fe $0 $ff $ff $fe $0 $ff $ff $fe $0 $ff $ff $fe $0 $ff 
+; Tile index 9c
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index 9d
+.db $e0 $0 $0 $ff $e0 $0 $0 $ff $e0 $0 $0 $ff $e0 $0 $0 $ff $f8 $0 $0 $ff $f0 $0 $0 $ff $f8 $0 $0 $ff $f8 $0 $0 $ff 
+; Tile index 9e
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 9f
+.db $3 $3 $3 $fc $1 $1 $1 $fe $f $f $f $f0 $f $f $f $f0 $1f $1f $1f $e0 $f $f $f $f0 $f $f $f $f0 $f $f $f $f0 
+; Tile index a0
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index a1
+.db $fc $fc $3 $0 $e4 $e4 $1b $0 $e0 $e0 $1f $0 $e0 $e0 $1f $0 $e0 $e0 $1f $0 $98 $98 $67 $0 $88 $88 $77 $0 $c0 $c0 $3f $0 
+; Tile index a2
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index a3
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index a4
+.db $0 $0 $ff $0 $1a $0 $ff $0 $10 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index a5
+.db $3f $0 $ff $0 $1f $0 $ff $0 $1d $0 $ff $0 $1f $0 $ff $0 $3 $0 $ff $0 $2 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index a6
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $fc $0 $ff $0 $ff $0 $ff $0 $df $0 $ff $0 $7f $0 $ff $0 $3f $0 $ff $0 
+; Tile index a7
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index a8
+.db $fc $3 $ff $0 $fe $1 $ff $0 $fe $1 $ff $0 $ff $0 $ff $0 $fe $1 $ff $0 $fc $3 $ff $0 $fc $3 $ff $0 $e0 $1f $ff $0 
+; Tile index a9
+.db $f $ff $ff $0 $3 $ff $ff $0 $1 $ff $ff $0 $1 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index aa
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $7f $ff $ff $0 $3f $ff $ff $0 $1f $ff $ff $0 
+; Tile index ab
+.db $c0 $c0 $c0 $3f $e0 $e0 $e0 $1f $f8 $f8 $f8 $7 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $fe $fe $fe $1 
+; Tile index ac
+.db $1e $1e $1e $e1 $1f $1f $1f $e0 $3f $3f $3f $c0 $ff $ff $ff $0 $ff $ff $ff $0 $f3 $f3 $f3 $c $e1 $e1 $e1 $1e $7 $7 $7 $f8 
+; Tile index ad
+.db $0 $0 $0 $ff $e0 $e0 $e0 $1f $e0 $e0 $e0 $1f $f0 $f0 $f0 $f $fc $fc $fc $3 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index ae
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $80 $80 $80 $7f $98 $98 $98 $67 $f0 $f0 $f0 $f 
+; Tile index af
+.db $3f $f $0 $ff $3f $7 $0 $ff $7f $0 $0 $ff $7 $0 $0 $ff $1 $0 $0 $ff $1 $0 $0 $ff $0 $0 $0 $ff $40 $38 $0 $ff 
+; Tile index b0
+.db $ff $c0 $0 $ff $ff $f0 $0 $ff $ff $c $0 $ff $ff $f $0 $ff $bf $7 $0 $ff $f $7 $0 $ff $f $0 $0 $ff $e $0 $0 $ff 
+; Tile index b1
+.db $fa $fc $0 $ff $f5 $f4 $8 $ff $fd $fc $0 $ff $fd $fc $0 $ff $fd $fd $1 $fe $fc $fc $0 $ff $fd $7d $1 $fe $ff $c $1 $fe 
+; Tile index b2
+.db $df $60 $5f $bf $9f $20 $1f $ff $1f $80 $3f $ff $9f $20 $1f $ff $31 $ae $90 $7f $a0 $a8 $90 $7e $80 $be $80 $7f $20 $bf $80 $7f 
+; Tile index b3
+.db $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $f9 $6 $f9 $ff $87 $78 $7 $ff $1f $60 $5f $3f $3f $0 $1f $3f $b7 $16 $a8 $1f 
+; Tile index b4
+.db $f $f0 $f $ff $fc $3 $ff $ff $f8 $7 $ff $ff $f0 $f $cf $ff $a5 $1 $c2 $cf $e0 $20 $e2 $c0 $c2 $40 $a0 $c0 $46 $2 $46 $80 
+; Tile index b5
+.db $8f $40 $87 $ff $9f $60 $87 $ff $f3 $c $f3 $ff $79 $e6 $99 $ff $88 $37 $78 $9f $38 $7 $18 $3f $3e $1 $1e $3f $17 $0 $f $1f 
+; Tile index b6
+.db $84 $1 $fe $ff $fe $1 $fe $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $2f $c0 $3f $ff $3f $c8 $1b $e7 $61 $82 $1 $c7 
+; Tile index b7
+.db $4c $ae $35 $c3 $7c $a6 $3d $c3 $42 $9a $19 $e7 $ba $5a $99 $e7 $bc $74 $9f $e3 $a0 $8 $cb $f7 $a0 $48 $8b $f7 $ac $40 $8b $f7 
+; Tile index b8
+.db $0 $e0 $ff $ff $0 $30 $ff $ff $0 $20 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff 
+; Tile index b9
+.db $0 $0 $ff $ff $0 $0 $ff $ff $6 $6 $f9 $ff $7 $7 $f8 $ff $7 $7 $f8 $ff $1f $1f $e0 $ff $3f $3f $c0 $ff $7f $7f $80 $ff 
+; Tile index ba
+.db $3f $3f $c0 $ff $3f $3f $c0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $fd $0 $ff $ff $f9 $0 $ff $ff $f9 $0 $ff 
+; Tile index bb
+.db $ff $fe $0 $ff $ff $fe $0 $ff $ff $f8 $0 $ff $ff $f8 $0 $ff $ff $f8 $0 $ff $ff $e0 $0 $ff $ff $e0 $0 $ff $ff $e0 $0 $ff 
+; Tile index bc
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $fe $0 $0 $ff 
+; Tile index bd
+.db $f8 $0 $0 $ff $e0 $0 $0 $ff $c0 $0 $0 $ff $80 $0 $0 $ff $80 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index be
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index bf
+.db $f $f $f $f0 $3 $3 $3 $fc $f $f $f $f0 $f $f $f $f0 $3f $3f $3f $c0 $ff $ff $ff $0 $7f $7f $7f $80 $7f $7f $7f $80 
+; Tile index c0
+.db $ff $ff $0 $0 $fe $fe $1 $0 $fe $fe $1 $0 $fe $fe $1 $0 $fe $fe $1 $0 $ff $ff $0 $0 $ff $ff $0 $0 $f0 $f0 $f $0 
+; Tile index c1
+.db $c0 $c0 $3f $0 $18 $18 $e7 $0 $3c $3c $c3 $0 $4 $4 $fb $0 $0 $0 $ff $0 $40 $40 $bf $0 $e0 $e0 $1f $0 $80 $80 $7f $0 
+; Tile index c2
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index c3
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index c4
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index c5
+.db $0 $0 $ff $0 $3 $0 $ff $0 $3 $0 $ff $0 $3 $0 $ff $0 $f $0 $ff $0 $f $0 $ff $0 $f $0 $ff $0 $f $0 $ff $0 
+; Tile index c6
+.db $7f $0 $ff $0 $e1 $0 $ff $0 $71 $0 $ff $0 $f7 $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index c7
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index c8
+.db $e0 $1f $ff $0 $e0 $1f $ff $0 $e0 $1f $ff $0 $e0 $1f $ff $0 $f0 $f $ff $0 $f8 $7 $ff $0 $fc $3 $ff $0 $fc $3 $ff $0 
+; Tile index c9
+.db $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index ca
+.db $1f $ff $ff $0 $f $ff $ff $0 $7 $ff $ff $0 $3 $ff $ff $0 $7 $ff $ff $0 $2 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index cb
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $f7 $ff $ff $0 $3b $ff $ff $0 $3d $ff $ff $0 $3f $ff $ff $0 
+; Tile index cc
+.db $0 $0 $0 $ff $80 $80 $80 $7f $c0 $c0 $c0 $3f $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index cd
+.db $ff $ff $ff $0 $7f $7f $7f $80 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $f7 $ff $ff $0 $f5 $ff $ff $0 
+; Tile index ce
+.db $f0 $f0 $f0 $f $f8 $f8 $f8 $7 $f9 $f9 $f9 $6 $f9 $f9 $f9 $6 $fe $ff $ff $0 $fe $ff $ff $0 $fe $ff $ff $0 $fd $ff $ff $0 
+; Tile index cf
+.db $44 $38 $0 $ff $44 $38 $0 $ff $80 $b8 $80 $7f $40 $38 $0 $ff $2 $7a $2 $fd $8b $73 $3 $fc $8b $73 $3 $fc $8b $73 $3 $fc 
+; Tile index d0
+.db $8e $80 $80 $7f $e $0 $0 $ff $c $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $80 $80 $80 $7f $c0 $c0 $c0 $3f $ef $ef $ef $10 
+; Tile index d1
+.db $3f $7 $1 $fe $e $2 $0 $ff $7 $0 $0 $ff $1 $0 $0 $ff $0 $0 $0 $ff $1 $0 $0 $ff $c3 $c0 $c0 $3f $83 $80 $80 $7f 
+; Tile index d2
+.db $a1 $3e $81 $7f $20 $9f $80 $7f $40 $3f $0 $ff $c0 $3f $0 $ff $e0 $1f $0 $ff $f1 $1e $1 $ff $f3 $1c $3 $ff $f3 $1c $3 $ff 
+; Tile index d3
+.db $98 $0 $0 $80 $40 $40 $c0 $80 $bf $43 $80 $ff $f7 $8 $f7 $ff $ff $0 $ff $ff $7f $80 $7f $ff $bf $40 $bf $ff $ff $0 $ff $ff 
+; Tile index d4
+.db $d $d $3 $6 $9 $7 $16 $f $e0 $e2 $1f $ff $ef $10 $e0 $ff $ff $0 $ff $ff $f9 $6 $ff $ff $eb $24 $c4 $ff $db $21 $d2 $e4 
+; Tile index d5
+.db $3 $8 $8 $7 $80 $0 $0 $0 $8e $8 $c $f0 $51 $0 $3e $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $c0 $3f $ff $1f $40 $7f $3f 
+; Tile index d6
+.db $c3 $c $4b $87 $b $14 $13 $f $17 $28 $27 $1f $26 $39 $6 $ff $e $31 $ce $ff $cc $33 $cc $ff $f8 $7 $f8 $ff $f8 $7 $f8 $ff 
+; Tile index d7
+.db $2c $e4 $b $f7 $20 $c0 $7 $ff $28 $c0 $7 $ff $19 $e9 $6 $ff $f $ef $10 $ff $1f $ff $0 $ff $1f $ff $0 $ff $3f $ff $0 $ff 
+; Tile index d8
+.db $e1 $e1 $1e $ff $e7 $e7 $18 $ff $ef $ef $10 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $bf $0 $ff 
+; Tile index d9
+.db $ff $ff $0 $ff $ff $ff $0 $ff $ff $f8 $0 $ff $ff $fc $0 $ff $ff $fc $0 $ff $ff $fc $0 $ff $ff $fc $0 $ff $ff $c8 $0 $ff 
+; Tile index da
+.db $ff $f9 $0 $ff $ff $f1 $0 $ff $ff $70 $0 $ff $ff $30 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index db
+.db $ff $c0 $0 $ff $ff $80 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index dc
+.db $fc $0 $0 $ff $fc $0 $0 $ff $fe $0 $0 $ff $fe $0 $0 $ff $fe $0 $0 $ff $fc $0 $0 $ff $f0 $0 $0 $ff $f0 $0 $0 $ff 
+; Tile index dd
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index de
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $1 $1 $1 $fe $1 $1 $1 $fe $1 $1 $1 $fe $f $f $f $f0 $7 $7 $7 $f8 
+; Tile index df
+.db $7f $7f $7f $80 $7f $7f $7f $80 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index e0
+.db $f0 $f0 $f $0 $80 $80 $7f $0 $f0 $f0 $f $0 $f0 $f0 $f $0 $f0 $f0 $f $0 $f8 $f8 $7 $0 $ff $ff $0 $0 $fe $fe $1 $0 
+; Tile index e1
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index e2
+.db $0 $0 $ff $0 $0 $0 $ff $0 $78 $78 $87 $0 $78 $78 $87 $0 $78 $78 $87 $0 $7c $7c $83 $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index e3
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index e4
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index e5
+.db $7 $0 $ff $0 $3 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $11 $0 $ff $0 $1f $0 $ff $0 $17 $0 $ff $0 $13 $0 $ff $0 
+; Tile index e6
+.db $ff $0 $ff $0 $ff $0 $ff $0 $bf $0 $ff $0 $7f $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $df $0 $ff $0 
+; Tile index e7
+.db $ff $0 $ff $0 $ff $0 $ff $0 $f8 $0 $ff $0 $f8 $0 $ff $0 $e8 $0 $ff $0 $fc $0 $ff $0 $e3 $0 $ff $0 $e3 $0 $ff $0 
+; Tile index e8
+.db $fe $1 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $71 $0 $ff $0 $f0 $0 $ff $0 $3 $0 $ff $0 
+; Tile index e9
+.db $0 $ff $ff $0 $e0 $1f $ff $0 $f0 $f $ff $0 $f0 $f $ff $0 $f0 $f $ff $0 $f8 $7 $ff $0 $fc $3 $ff $0 $fe $1 $ff $0 
+; Tile index ea
+.db $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index eb
+.db $1f $ff $ff $0 $f $ff $ff $0 $1 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $30 $cf $ff $0 $0 $ff $ff $0 
+; Tile index ec
+.db $ff $ff $ff $0 $7f $ff $ff $0 $1f $ff $ff $0 $9f $ff $ff $0 $7f $ff $ff $0 $7b $ff $ff $0 $78 $ff $ff $0 $3f $ff $ff $0 
+; Tile index ed
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $df $ff $ff $0 $f $ff $ff $0 $cf $ff $ff $0 
+; Tile index ee
+.db $fc $fe $fe $1 $fd $fe $fe $1 $fd $fe $fe $1 $f7 $f6 $f6 $9 $f8 $fd $fc $3 $fd $fc $fc $3 $ff $fc $fc $3 $fe $fd $fc $3 
+; Tile index ef
+.db $f $f7 $7 $f8 $3 $f3 $3 $fc $7 $f7 $7 $f8 $6 $f6 $6 $f9 $1f $ef $f $f0 $7 $f7 $7 $f8 $7 $f7 $7 $f8 $13 $e3 $3 $fc 
+; Tile index f0
+.db $ff $ff $ff $0 $fb $fb $fb $4 $ff $ff $ff $0 $ff $ff $ff $0 $7 $7 $7 $f8 $3 $3 $3 $fc $1 $1 $1 $fe $f0 $f0 $f0 $f 
+; Tile index f1
+.db $83 $80 $80 $7f $80 $80 $80 $7f $e1 $e0 $e0 $1f $c0 $c0 $c0 $3f $fc $fc $fc $3 $fe $fe $fe $1 $7f $7f $7f $80 $1f $1f $1f $e0 
+; Tile index f2
+.db $ff $8 $7 $ff $9f $4 $3 $ff $1 $2 $1 $ff $6 $0 $5 $fb $7 $0 $6 $f9 $1f $19 $1f $e0 $1e $19 $1f $e0 $f1 $f7 $f7 $8 
+; Tile index f3
+.db $df $20 $df $ff $ef $10 $ef $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $80 $7f $ff $3f $40 $3f $ff $bf $a0 $9f $7f 
+; Tile index f4
+.db $e0 $0 $e0 $f0 $f0 $0 $e0 $f0 $e0 $0 $e0 $f0 $f0 $10 $f0 $e0 $f0 $10 $f0 $e0 $f0 $0 $e0 $f0 $f0 $10 $e0 $f0 $e8 $0 $f0 $f0 
+; Tile index f5
+.db $7f $0 $3f $7f $ff $0 $ff $7f $7f $80 $ff $7f $fe $1 $fe $7f $ff $0 $ff $7f $ff $80 $ff $7f $7f $0 $7f $ff $ff $0 $7f $ff 
+; Tile index f6
+.db $f8 $7 $f8 $ff $fc $3 $fc $ff $fe $1 $fe $ff $fd $3 $fc $ff $ff $4 $f8 $ff $f9 $4 $f4 $fb $dd $20 $cc $f3 $dd $40 $9c $e3 
+; Tile index f7
+.db $7f $ff $0 $ff $7f $ff $0 $ff $ff $fe $0 $ff $ff $ff $0 $ff $ff $60 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index f8
+.db $ff $ff $0 $ff $ff $7e $0 $ff $ff $10 $0 $ff $ff $80 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $80 $0 $ff $ff $0 $0 $ff 
+; Tile index f9
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $4 $0 $ff $ff $38 $0 $ff $ff $78 $0 $ff $ff $70 $0 $ff $ff $20 $0 $ff $ff $0 $0 $ff 
+; Tile index fa
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff 
+; Tile index fb
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $df $0 $0 $ff 
+; Tile index fc
+.db $e0 $0 $0 $ff $e0 $0 $0 $ff $f8 $0 $0 $ff $e0 $0 $0 $ff $e0 $0 $0 $ff $c0 $0 $0 $ff $c0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index fd
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index fe
+.db $1 $1 $1 $fe $0 $0 $0 $ff $0 $0 $0 $ff $1 $1 $1 $fe $1 $1 $1 $fe $1 $1 $1 $fe $1 $1 $1 $fe $f $f $f $f0 
+; Tile index ff
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index 100
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $fb $ff $0 $0 $ff $ff $0 $0 $7f $ff $0 $0 $bf $ff $0 $0 
+; Tile index 101
+.db $0 $0 $ff $0 $80 $80 $7f $0 $cc $cc $33 $0 $f7 $f7 $8 $0 $b0 $b0 $4f $0 $bc $bc $43 $0 $f5 $f5 $a $0 $e0 $e0 $1f $0 
+; Tile index 102
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $16 $16 $e9 $0 $7f $7f $80 $0 $7f $7f $80 $0 $7f $7f $80 $0 
+; Tile index 103
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $80 $80 $7f $0 $80 $80 $7f $0 $0 $0 $ff $0 
+; Tile index 104
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 105
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 106
+.db $83 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $7 $0 $ff $0 $7 $0 $ff $0 
+; Tile index 107
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 108
+.db $f $0 $ff $0 $7 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 109
+.db $bf $0 $ff $0 $1f $0 $ff $0 $f $0 $ff $0 $7 $0 $ff $0 $1 $0 $ff $0 $1 $0 $ff $0 $3 $0 $ff $0 $1 $0 $ff $0 
+; Tile index 10a
+.db $e0 $1f $ff $0 $f0 $f $ff $0 $fc $3 $ff $0 $fe $1 $ff $0 $fe $1 $ff $0 $fe $1 $ff $0 $fe $1 $ff $0 $fe $1 $ff $0 
+; Tile index 10b
+.db $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 10c
+.db $e $ff $ff $0 $f $ff $ff $0 $7 $ff $ff $0 $3 $ff $ff $0 $1 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 10d
+.db $ff $ff $ff $0 $7f $ff $ff $0 $de $ff $ff $0 $ec $fe $ff $0 $ff $fd $fe $0 $f9 $fd $fe $0 $3b $ff $fc $0 $7 $f9 $fc $0 
+; Tile index 10e
+.db $f2 $fd $fc $3 $1e $fd $fc $3 $7a $71 $88 $7 $f8 $eb $0 $7 $bc $af $44 $3 $bc $8f $44 $3 $fc $cf $4 $3 $f8 $8f $4 $3 
+; Tile index 10f
+.db $10 $e0 $0 $ff $1c $e0 $0 $ff $15 $e7 $7 $f8 $25 $cc $b $f0 $31 $d0 $1f $e0 $6 $d1 $1f $e0 $3e $e2 $3e $c1 $78 $84 $2c $c3 
+; Tile index 110
+.db $78 $78 $78 $87 $3c $3c $3c $c3 $0 $0 $0 $ff $20 $80 $80 $7f $b8 $80 $80 $7f $b8 $80 $80 $7f $3c $0 $0 $ff $40 $40 $40 $bf 
+; Tile index 111
+.db $7 $7 $7 $f8 $1 $1 $1 $fe $1c $0 $0 $ff $7 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $1 $0 $1 $fe 
+; Tile index 112
+.db $f9 $f7 $f7 $8 $ed $ff $fb $0 $53 $67 $75 $88 $3e $12 $23 $cc $49 $70 $46 $8f $58 $13 $47 $8f $48 $81 $97 $f $8c $5 $13 $f 
+; Tile index 113
+.db $ff $f0 $ef $1f $3f $30 $37 $cf $1d $1a $19 $e7 $8d $8c $8c $73 $ee $2e $ee $11 $be $8e $1e $c1 $2a $d6 $d6 $e1 $6 $e4 $f2 $f9 
+; Tile index 114
+.db $c8 $30 $f8 $f0 $c8 $38 $f9 $f0 $c0 $30 $f0 $f9 $9 $71 $f0 $f9 $8c $5c $35 $fb $40 $3f $0 $ff $60 $1f $0 $ff $60 $1f $0 $ff 
+; Tile index 115
+.db $fe $80 $7f $ff $7c $2 $fc $ff $3f $c6 $fb $fc $f $e4 $f7 $f8 $a $2d $cf $f0 $6b $8d $f $f0 $48 $8f $f $f0 $4f $8c $e $f0 
+; Tile index 116
+.db $ab $54 $7c $83 $be $72 $fe $1 $59 $d4 $df $20 $13 $90 $92 $6c $ac $aa $a2 $5c $95 $d2 $ca $3c $a6 $27 $9a $7c $5 $24 $79 $fe 
+; Tile index 117
+.db $ff $0 $0 $ff $7f $0 $0 $ff $1f $0 $0 $ff $de $40 $c0 $3f $fe $20 $60 $1f $b0 $50 $30 $f $b8 $68 $18 $7 $1c $f4 $c $3 
+; Tile index 118
+.db $ff $0 $0 $ff $cf $0 $0 $ff $8f $0 $0 $ff $1f $0 $0 $ff $1f $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $7f $0 $0 $ff 
+; Tile index 119
+.db $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $c0 $0 $0 $ff 
+; Tile index 11a
+.db $fe $0 $0 $ff $fe $0 $0 $ff $fc $0 $0 $ff $fe $0 $0 $ff $fc $0 $0 $ff $f8 $0 $0 $ff $f8 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 11b
+.db $1f $0 $0 $ff $e $0 $0 $ff $8 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 11c
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff 
+; Tile index 11d
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $1 $1 $1 $fe $1 $1 $1 $fe $1 $1 $1 $fe 
+; Tile index 11e
+.db $1f $1f $1f $e0 $1f $1f $1f $e0 $3f $3f $3f $c0 $3f $3f $3f $c0 $1f $1f $1f $e0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index 11f
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index 120
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 121
+.db $3f $3f $c0 $0 $9f $9f $60 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 122
+.db $1f $1f $e0 $0 $c7 $c7 $38 $0 $cf $cf $30 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $fb $fb $4 $0 
+; Tile index 123
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $80 $80 $7f $0 $0 $0 $ff $0 $80 $80 $7f $0 $0 $0 $ff $0 $fe $fe $1 $0 
+; Tile index 124
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 125
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 126
+.db $2 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 127
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $20 $0 $ff $0 
+; Tile index 128
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $8 $0 $ff $0 $3c $0 $ff $0 
+; Tile index 129
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 12a
+.db $ff $0 $ff $0 $7f $0 $ff $0 $ff $0 $ff $0 $7f $0 $ff $0 $1f $0 $ff $0 $3f $0 $ff $0 $3f $0 $ff $0 $7f $0 $ff $0 
+; Tile index 12b
+.db $f0 $f $ff $0 $f0 $f $ff $0 $f0 $f $ff $0 $fc $3 $ff $0 $fe $1 $ff $0 $fe $1 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 12c
+.db $0 $ff $ff $0 $0 $ff $ff $0 $3 $fc $ff $0 $3 $fc $ff $0 $7 $f8 $ff $0 $f $f0 $ff $0 $5f $a0 $ff $0 $ff $0 $ff $0 
+; Tile index 12d
+.db $f $f3 $f8 $0 $1c $e8 $f4 $3 $fc $3 $f8 $7 $eb $c $fb $7 $e3 $4 $f3 $f $df $0 $f7 $f $2f $20 $d7 $f $33 $34 $c3 $f 
+; Tile index 12e
+.db $fc $87 $4 $3 $7c $53 $68 $87 $8 $d7 $10 $ef $93 $6c $83 $ff $c7 $38 $c7 $ff $ef $10 $ef $ff $ff $0 $ff $ff $ff $0 $ff $ff 
+; Tile index 12f
+.db $78 $80 $28 $c7 $78 $80 $28 $c7 $5d $b5 $2d $c2 $0 $c1 $1 $fe $83 $7d $81 $fe $fd $2 $fc $ff $fe $1 $fe $ff $ff $0 $ff $ff 
+; Tile index 130
+.db $61 $20 $60 $9f $c $84 $bc $3 $bc $18 $4 $3 $3e $6 $2 $1 $ee $19 $7 $0 $78 $f7 $8f $0 $65 $be $3f $c0 $14 $e4 $7 $f8 
+; Tile index 131
+.db $6 $5 $6 $f8 $e $b $c $f0 $19 $12 $1c $e0 $92 $e4 $f8 $0 $2a $cc $f0 $0 $46 $88 $f0 $0 $c4 $18 $e0 $0 $2c $30 $c0 $0 
+; Tile index 132
+.db $9c $15 $3 $f $14 $5 $3 $f $4 $5 $3 $f $4 $d $b $7 $4 $4 $b $7 $4 $0 $3 $7 $2 $2 $1 $7 $6 $2 $5 $3 
+; Tile index 133
+.db $7 $fe $fb $fc $0 $fc $fe $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $7f $ff $ff 
+; Tile index 134
+.db $40 $3f $0 $ff $40 $bf $80 $7f $a0 $1f $0 $ff $52 $d $82 $ff $30 $b7 $d0 $ef $14 $d3 $e0 $ff $5 $c5 $f9 $fe $1f $f8 $e0 $ff 
+; Tile index 135
+.db $c1 $4 $6 $f9 $36 $c9 $d $f3 $34 $df $1b $e7 $18 $df $17 $ef $10 $be $2f $df $20 $6e $5f $bf $40 $1e $3f $ff $c0 $de $3f $ff 
+; Tile index 136
+.db $4 $65 $f9 $fe $7 $e5 $f9 $fe $6 $e4 $f8 $ff $6 $4 $f8 $ff $7 $6 $f8 $ff $7 $6 $f8 $ff $7 $6 $f8 $ff $26 $26 $d8 $ff 
+; Tile index 137
+.db $be $7a $c6 $1 $4b $19 $27 $c0 $4a $79 $27 $c0 $a5 $3c $63 $c0 $84 $bc $63 $c0 $f2 $ce $21 $c0 $d2 $4e $21 $c0 $fa $46 $21 $c0 
+; Tile index 138
+.db $ef $0 $0 $ff $77 $0 $0 $ff $8f $80 $80 $7f $1b $f8 $f8 $7 $e2 $1e $fe $1 $70 $f $ff $0 $70 $f $ff $0 $75 $a $ff $0 
+; Tile index 139
+.db $80 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $c0 $0 $0 $ff $78 $0 $0 $ff $f $c0 $c0 $3f $cc $3c $fc $3 $f0 $f $ff $0 
+; Tile index 13a
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $c0 $0 $0 $ff $f0 $0 $0 $ff $c0 $c0 $c0 $3f 
+; Tile index 13b
+.db $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $3 $3 $3 $fc 
+; Tile index 13c
+.db $0 $0 $0 $ff $0 $0 $0 $ff $2 $2 $2 $fd $f $f $f $f0 $1f $1f $1f $e0 $3f $3f $3f $c0 $3f $3f $3f $c0 $ff $ff $ff $0 
+; Tile index 13d
+.db $19 $19 $19 $e6 $1 $1 $1 $fe $f1 $f1 $f1 $e $f1 $f1 $f1 $e $e7 $e7 $e7 $18 $df $df $df $20 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index 13e
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $fe $ff $ff $0 
+; Tile index 13f
+.db $ff $ff $ff $0 $fe $ff $ff $0 $fc $ff $ff $0 $fc $ff $ff $0 $fc $ff $ff $0 $f0 $ff $ff $0 $c0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 140
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 141
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $f7 $ff $0 $0 $fb $ff $0 $0 $ff $ff $0 $0 
+; Tile index 142
+.db $fb $fb $4 $0 $fb $fb $4 $0 $ff $ff $0 $0 $df $df $20 $0 $df $df $20 $0 $df $df $20 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 143
+.db $ff $ff $0 $0 $fe $fe $1 $0 $ff $ff $0 $0 $f7 $f7 $8 $0 $f7 $f7 $8 $0 $f7 $f7 $8 $0 $fe $fe $1 $0 $fe $fe $1 $0 
+; Tile index 144
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $80 $80 $7f $0 $80 $80 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 145
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 146
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 147
+.db $60 $0 $ff $0 $0 $0 $ff $0 $1 $0 $ff $0 $1 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 148
+.db $7c $0 $ff $0 $7c $0 $ff $0 $78 $0 $ff $0 $f8 $0 $ff $0 $30 $0 $ff $0 $30 $0 $ff $0 $10 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 149
+.db $1 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $1 $0 $ff $0 $1 $0 $ff $0 $3 $0 $ff $0 $17 $0 $ff $0 $1f $0 $ff $0 
+; Tile index 14a
+.db $f $0 $ff $0 $1f $0 $ff $0 $a0 $0 $ff $0 $e0 $0 $ff $0 $e4 $0 $ff $0 $ee $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 14b
+.db $ff $0 $ff $0 $7f $0 $ff $0 $f $0 $ff $0 $7f $0 $ff $0 $7f $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $f1 $0 $ff $0 
+; Tile index 14c
+.db $fc $0 $ff $0 $f0 $0 $ff $0 $f1 $0 $ff $0 $e1 $0 $ff $0 $f1 $0 $ff $0 $f2 $0 $ff $0 $fe $0 $ff $0 $f8 $0 $ff $0 
+; Tile index 14d
+.db $2b $2c $db $7 $41 $5e $b9 $7 $38 $13 $f8 $7 $3a $35 $dc $3 $76 $41 $9c $3 $5c $11 $8c $3 $84 $81 $c $3 $c $81 $4 $3 
+; Tile index 14e
+.db $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $3f $c0 $3f $ff 
+; Tile index 14f
+.db $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff 
+; Tile index 150
+.db $e6 $1f $e4 $f8 $e3 $18 $e0 $fc $f2 $8 $f0 $fc $f6 $a $f0 $fc $f2 $e $f0 $fc $f4 $8 $f0 $fc $f8 $0 $f8 $fc $f0 $c $f4 $f8 
+; Tile index 151
+.db $dc $e0 $0 $0 $f8 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 152
+.db $2 $0 $1 $3 $0 $0 $1 $3 $1 $3 $2 $1 $3 $0 $0 $1 $0 $0 $0 $1 $1 $1 $1 $0 $0 $1 $1 $0 $1 $1 $0 $0 
+; Tile index 153
+.db $0 $7f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $1 $7f $fe $ff $0 $7e $ff $ff $0 $7e $ff $ff $82 $fe $7c $ff $c1 $7c $3e $ff 
+; Tile index 154
+.db $1e $98 $dc $e0 $0 $80 $80 $c0 $80 $0 $0 $80 $0 $0 $80 $0 $c0 $0 $0 $e0 $90 $c0 $f0 $e0 $b0 $90 $40 $e0 $70 $70 $10 $e0 
+; Tile index 155
+.db $40 $e $1f $3f $0 $f $f $1f $8 $7 $7 $f $18 $1c $17 $f $10 $3e $2f $1f $60 $3d $5f $3f $40 $39 $3f $7f $86 $76 $f9 $7f 
+; Tile index 156
+.db $3f $3e $c0 $ff $3f $3e $c0 $ff $3f $3e $c0 $ff $1f $1e $e0 $ff $1 $0 $fe $ff $5 $5 $fa $ff $5 $5 $fa $ff $1 $83 $fe $ff 
+; Tile index 157
+.db $fa $46 $21 $c0 $59 $7 $20 $c0 $99 $87 $a0 $40 $9d $a3 $80 $40 $6d $c3 $c0 $0 $2d $c3 $c0 $0 $ce $81 $c0 $0 $e $1 $40 $80 
+; Tile index 158
+.db $3f $0 $ff $0 $3f $0 $ff $0 $1f $0 $ff $0 $f $0 $ff $0 $7 $0 $ff $0 $87 $80 $7f $0 $87 $80 $7f $0 $43 $c0 $3f $0 
+; Tile index 159
+.db $f8 $7 $ff $0 $fe $1 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 15a
+.db $3 $ff $ff $0 $7f $80 $ff $0 $9f $60 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 15b
+.db $87 $87 $87 $78 $f $ff $ff $0 $f9 $7 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 15c
+.db $ff $ff $ff $0 $ff $ff $ff $0 $bf $bf $bf $40 $7f $ff $ff $0 $af $5f $ff $0 $ff $f $ff $0 $f7 $f $ff $0 $7f $7 $ff $0 
+; Tile index 15d
+.db $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $fc $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 
+; Tile index 15e
+.db $fe $ff $ff $0 $fe $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $f8 $ff $ff $0 $0 $ff $ff $0 $80 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 15f
+.db $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 160
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $df $df $20 $0 $ff $ff $0 $0 
+; Tile index 161
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 162
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 163
+.db $fe $fe $1 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 164
+.db $0 $0 $ff $0 $80 $80 $7f $0 $e0 $e0 $1f $0 $e0 $e0 $1f $0 $e0 $e0 $1f $0 $f0 $f0 $f $0 $f0 $f0 $f $0 $f8 $f8 $7 $0 
+; Tile index 165
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 166
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 167
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 168
+.db $0 $0 $ff $0 $0 $0 $ff $0 $7 $0 $ff $0 $3 $0 $ff $0 $7 $0 $ff $0 $7 $0 $ff $0 $7 $0 $ff $0 $1f $0 $ff $0 
+; Tile index 169
+.db $7c $0 $ff $0 $fd $0 $ff $0 $fd $0 $ff $0 $fb $0 $ff $0 $fe $0 $ff $0 $fe $0 $ff $0 $ff $0 $ff $0 $fe $0 $ff $0 
+; Tile index 16a
+.db $ff $0 $ff $0 $e7 $0 $ff $0 $e2 $0 $ff $0 $30 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 16b
+.db $81 $0 $ff $0 $2 $0 $ff $0 $0 $0 $ff $0 $2 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 16c
+.db $f0 $0 $ff $0 $31 $1 $fe $0 $1 $1 $fe $0 $1 $1 $fe $0 $7 $6 $f8 $0 $6 $4 $f8 $0 $4 $4 $f8 $0 $4 $4 $f8 $0 
+; Tile index 16d
+.db $8f $2 $6 $1 $86 $2 $6 $1 $4 $4 $0 $3 $5 $1 $1 $2 $5 $1 $1 $2 $1 $3 $3 $0 $3 $2 $1 $0 $1 $0 $0 $0 
+; Tile index 16e
+.db $3f $c0 $3f $ff $3f $c0 $3f $ff $bf $40 $3f $ff $1f $60 $1f $ff $1f $60 $1f $ff $9f $e0 $9f $7f $8f $f0 $8f $7f $cf $b0 $8f $7f 
+; Tile index 16f
+.db $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff 
+; Tile index 170
+.db $f4 $8 $f4 $f8 $f0 $8 $f4 $f8 $f4 $8 $f0 $f8 $fc $0 $f0 $f8 $f8 $0 $f0 $f8 $f0 $0 $f0 $f8 $e0 $10 $e8 $f0 $f0 $0 $e0 $f0 
+; Tile index 171
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 172
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 173
+.db $c0 $3d $3f $ff $40 $5c $3f $ff $0 $9e $ff $7f $80 $ae $7f $7f $40 $7e $3f $7f $40 $3e $3f $7f $0 $3e $3f $7f $40 $3e $7f $3f 
+; Tile index 174
+.db $10 $60 $e0 $f0 $10 $f0 $e0 $f0 $10 $f0 $e0 $f0 $10 $60 $e0 $f0 $0 $60 $e0 $f0 $10 $40 $f0 $e0 $20 $40 $c0 $e0 $0 $40 $c0 $e0 
+; Tile index 175
+.db $4e $ae $31 $7f $b4 $54 $4b $3f $f8 $a8 $a7 $5f $28 $40 $47 $ff $1c $e4 $e3 $7f $4c $6c $33 $7f $0 $38 $3f $7f $0 $7e $7f $3f 
+; Tile index 176
+.db $0 $86 $ff $ff $0 $e7 $ff $ff $0 $e3 $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff 
+; Tile index 177
+.db $87 $0 $40 $80 $c3 $80 $40 $80 $43 $0 $c0 $80 $3 $40 $c0 $80 $41 $0 $c0 $80 $41 $0 $c0 $80 $1 $0 $c0 $80 $c1 $80 $0 $80 
+; Tile index 178
+.db $21 $e0 $1f $0 $b1 $70 $f $0 $98 $78 $7 $0 $88 $78 $7 $0 $c8 $38 $7 $0 $c4 $3c $3 $0 $c3 $3f $0 $0 $c3 $3f $0 $0 
+; Tile index 179
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $7f $0 $ff $0 $f $0 $ff $0 $1 $0 $ff $0 $81 $80 $7f $0 $f0 $f0 $f $0 
+; Tile index 17a
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $7f $0 $ff $0 
+; Tile index 17b
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $f7 $0 $ff $0 $fe $0 $ff $0 $fc $0 $ff $0 $fd $0 $ff $0 $ff $0 $ff $0 
+; Tile index 17c
+.db $fb $7 $ff $0 $f5 $3 $ff $0 $fc $3 $ff $0 $fc $3 $ff $0 $fe $1 $ff $0 $fe $1 $ff $0 $fe $1 $ff $0 $ff $0 $ff $0 
+; Tile index 17d
+.db $fe $ff $ff $0 $f9 $ff $ff $0 $7f $ff $ff $0 $3f $ff $ff $0 $c $ff $ff $0 $4 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 17e
+.db $0 $ff $ff $0 $80 $ff $ff $0 $c0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 
+; Tile index 17f
+.db $0 $ff $ff $0 $0 $ff $ff $0 $1 $fe $ff $0 $3 $fc $ff $0 $3 $fc $ff $0 $7 $f8 $ff $0 $7 $f8 $ff $0 $7 $f8 $ff $0 
+; Tile index 180
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 181
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 182
+.db $ff $ff $0 $0 $ff $ff $0 $0 $f8 $f8 $7 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 183
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 184
+.db $f8 $f8 $7 $0 $fc $fc $3 $0 $fc $fc $3 $0 $fc $fc $3 $0 $fc $fc $3 $0 $fc $fc $3 $0 $fc $fc $3 $0 $fe $fe $1 $0 
+; Tile index 185
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 186
+.db $0 $0 $ff $0 $0 $0 $ff $0 $80 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 187
+.db $0 $0 $ff $0 $60 $0 $ff $0 $30 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 188
+.db $1f $0 $ff $0 $f $0 $ff $0 $f $0 $ff $0 $f $0 $ff $0 $f $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 189
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $f1 $0 $ff $0 $15 $0 $ff $0 $c $0 $ff $0 $c $0 $ff $0 $4 $0 $ff $0 
+; Tile index 18a
+.db $0 $0 $ff $0 $0 $0 $ff $0 $80 $0 $ff $0 $80 $0 $ff $0 $80 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 18b
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 18c
+.db $4 $4 $f8 $0 $0 $4 $f8 $0 $8 $8 $f0 $0 $8 $0 $f0 $0 $0 $0 $f0 $0 $10 $10 $e0 $0 $10 $10 $e0 $0 $0 $10 $e0 $0 
+; Tile index 18d
+.db $1 $0 $0 $0 $1 $1 $0 $0 $1 $0 $1 $0 $2 $1 $1 $0 $6 $1 $3 $0 $7 $1 $5 $2 $5 $5 $6 $3 $4 $1 $3 $7 
+; Tile index 18e
+.db $f $70 $f $ff $1f $60 $1f $ff $9f $60 $1f $ff $8f $70 $f $ff $87 $78 $7 $ff $7 $78 $7 $ff $3 $3c $3 $ff $d3 $ec $63 $9f 
+; Tile index 18f
+.db $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $fe $1 $fe $ff $fe $0 $fe $ff 
+; Tile index 190
+.db $c0 $30 $d0 $e0 $e0 $0 $c0 $e0 $a0 $60 $a0 $c0 $e0 $0 $80 $c0 $0 $c0 $40 $80 $80 $0 $0 $80 $0 $0 $80 $0 $0 $0 $0 $0 
+; Tile index 191
+.db $0 $0 $0 $0 $3 $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 
+; Tile index 192
+.db $0 $0 $0 $0 $80 $0 $0 $0 $80 $0 $0 $0 $c0 $0 $0 $0 $c0 $0 $0 $0 $80 $0 $0 $0 $c0 $0 $0 $0 $c0 $0 $0 $0 
+; Tile index 193
+.db $40 $17 $3f $3f $20 $37 $1f $3f $0 $17 $1f $3f $20 $3b $3f $1f $0 $b $3f $1f $10 $1b $f $1f $10 $b $f $1f $0 $f $f $1f 
+; Tile index 194
+.db $c0 $c0 $20 $c0 $80 $80 $0 $c0 $0 $40 $c0 $80 $0 $c0 $c0 $80 $0 $0 $c0 $80 $c0 $80 $0 $80 $80 $80 $0 $80 $80 $0 $0 $80 
+; Tile index 195
+.db $60 $3e $1f $3f $20 $1e $1f $3f $0 $1e $1f $3f $0 $3e $3f $1f $20 $e $3f $1f $20 $2e $1f $1f $30 $1e $f $1f $10 $1e $f $1f 
+; Tile index 196
+.db $0 $7f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $0 $7f $ff $ff $0 $7e $ff $ff 
+; Tile index 197
+.db $81 $80 $0 $80 $81 $0 $0 $80 $80 $0 $0 $80 $0 $0 $0 $80 $1 $0 $0 $80 $1 $80 $80 $0 $81 $0 $80 $0 $80 $0 $80 $0 
+; Tile index 198
+.db $c2 $3f $0 $0 $e3 $1f $0 $0 $f3 $f $0 $0 $f0 $f $0 $0 $e0 $1f $0 $0 $e0 $1f $0 $0 $f0 $f $0 $0 $f0 $f $0 $0 
+; Tile index 199
+.db $fc $fc $3 $0 $fe $fe $1 $0 $be $fe $1 $0 $3f $ff $0 $0 $3e $fe $1 $0 $3e $fe $1 $0 $3e $fe $1 $0 $3e $fe $1 $0 
+; Tile index 19a
+.db $1f $0 $ff $0 $f $0 $ff $0 $3 $0 $ff $0 $81 $80 $7f $0 $1 $0 $ff $0 $3 $0 $ff $0 $3 $0 $ff $0 $1 $0 $ff $0 
+; Tile index 19b
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $fe $0 $ff $0 $f6 $0 $ff $0 $f0 $0 $ff $0 $f0 $0 $ff $0 $80 $0 $ff $0 
+; Tile index 19c
+.db $f7 $0 $ff $0 $20 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 19d
+.db $0 $ff $ff $0 $80 $7f $ff $0 $a6 $59 $ff $0 $7f $0 $ff $0 $7f $0 $ff $0 $7f $0 $ff $0 $7f $0 $ff $0 $3f $0 $ff $0 
+; Tile index 19e
+.db $0 $ff $ff $0 $0 $ff $ff $0 $1 $fe $ff $0 $87 $78 $ff $0 $87 $78 $ff $0 $df $20 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 19f
+.db $1f $e0 $ff $0 $1f $e0 $ff $0 $7f $80 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 
+; Tile index 1a0
+.db $7f $ff $0 $0 $3f $ff $0 $0 $ff $ff $0 $0 $7f $ff $0 $0 $7f $ff $0 $0 $3f $ff $0 $0 $1f $ff $0 $0 $f $ff $0 $0 
+; Tile index 1a1
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $7f $7f $80 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 1a2
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 1a3
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $fe $fe $1 $0 $ff $ff $0 $0 
+; Tile index 1a4
+.db $ff $ff $0 $0 $ff $ff $0 $0 $c3 $c3 $3c $0 $e3 $e3 $1c $0 $e0 $e0 $1f $0 $43 $43 $bc $0 $43 $43 $bc $0 $ff $ff $0 $0 
+; Tile index 1a5
+.db $80 $80 $7f $0 $80 $80 $7f $0 $f0 $f0 $f $0 $f8 $f8 $7 $0 $38 $38 $c7 $0 $b8 $b8 $47 $0 $80 $80 $7f $0 $80 $80 $7f $0 
+; Tile index 1a6
+.db $0 $0 $ff $0 $c $0 $ff $0 $3c $0 $ff $0 $44 $0 $ff $0 $0 $0 $ff $0 $4 $0 $ff $0 $6 $0 $ff $0 $7 $0 $ff $0 
+; Tile index 1a7
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $38 $0 $ff $0 $f0 $0 $ff $0 
+; Tile index 1a8
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1a9
+.db $1 $0 $ff $0 $1 $0 $ff $0 $4 $0 $ff $0 $10 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1aa
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $3 $0 $ff $0 $3 $0 $ff $0 
+; Tile index 1ab
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $9 $0 $ff $0 $7f $0 $ff $0 $7f $0 $ff $0 $1f $0 $ff $0 $1f $0 $ff $0 
+; Tile index 1ac
+.db $10 $0 $e0 $0 $20 $20 $c0 $0 $20 $0 $c0 $0 $c0 $40 $80 $0 $80 $40 $80 $0 $80 $40 $80 $0 $80 $0 $c0 $0 $a0 $0 $c0 $0 
+; Tile index 1ad
+.db $c $7 $3 $7 $4 $3 $3 $7 $0 $3 $3 $7 $4 $1 $7 $3 $2 $1 $1 $3 $2 $0 $3 $1 $0 $0 $0 $1 $0 $0 $0 $0 
+; Tile index 1ae
+.db $13 $84 $c3 $ef $1a $e4 $ed $f3 $b $f9 $f1 $fc $3 $ff $fd $fe $0 $ff $ff $ff $0 $ff $ff $ff $0 $ff $ff $ff $0 $7f $7f $ff 
+; Tile index 1af
+.db $fc $2 $fc $ff $fc $2 $fc $ff $7d $80 $7c $fe $8e $24 $1a $7c $f1 $49 $5d $80 $30 $c0 $d1 $e3 $8 $e3 $f3 $ff $6 $ff $f9 $ff 
+; Tile index 1b0
+.db $0 $0 $0 $0 $80 $0 $80 $0 $0 $80 $80 $0 $80 $80 $80 $0 $0 $0 $0 $80 $80 $0 $0 $80 $0 $0 $0 $80 $80 $80 $80 $0 
+; Tile index 1b1
+.db $7 $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $7 $0 $0 $0 $7 $0 $0 $0 $3 $0 $0 $0 $3 $0 $0 $0 $1 $0 $0 $0 
+; Tile index 1b2
+.db $e0 $0 $0 $0 $e0 $0 $0 $0 $e0 $0 $0 $0 $f0 $0 $0 $0 $f8 $0 $0 $0 $fe $0 $0 $0 $fc $0 $0 $0 $fc $0 $0 $0 
+; Tile index 1b3
+.db $10 $7 $1f $f $19 $f $7 $f $8 $7 $7 $f $0 $7 $7 $f $8 $3 $f $7 $c $7 $3 $7 $4 $3 $3 $7 $4 $7 $7 $3 
+; Tile index 1b4
+.db $0 $0 $0 $80 $0 $0 $0 $80 $80 $80 $80 $0 $80 $80 $80 $0 $0 $80 $80 $0 $0 $80 $80 $0 $0 $80 $80 $0 $80 $0 $80 $0 
+; Tile index 1b5
+.db $10 $1e $f $1f $10 $f $f $1f $10 $f $f $1f $0 $f $f $1f $0 $7 $f $1f $10 $17 $1f $f $10 $7 $1f $f $0 $7 $1f $f 
+; Tile index 1b6
+.db $0 $7e $ff $ff $1 $7f $fe $ff $1 $7f $fe $ff $1 $7e $fe $ff $1 $7e $fe $ff $0 $7e $fe $ff $0 $7e $fe $ff $0 $7f $ff $fe 
+; Tile index 1b7
+.db $80 $80 $0 $0 $80 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 1b8
+.db $f0 $f $0 $0 $e0 $1f $0 $0 $f8 $7 $0 $0 $fc $3 $0 $0 $f8 $7 $0 $0 $fc $3 $0 $0 $fe $1 $0 $0 $fe $1 $0 $0 
+; Tile index 1b9
+.db $3e $fe $1 $0 $17 $ff $0 $0 $17 $ff $0 $0 $1f $ff $0 $0 $f $ff $0 $0 $e $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 1ba
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $20 $20 $df $0 $fd $fd $2 $0 $7f $ff $0 $0 $ff $ff $0 $0 $31 $ff $0 $0 
+; Tile index 1bb
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $40 $40 $bf $0 $e0 $e0 $1f $0 $e0 $e0 $1f $0 $e3 $e3 $1c $0 $c7 $c7 $38 $0 
+; Tile index 1bc
+.db $1 $1 $fe $0 $f $f $f0 $0 $1b $1f $e0 $0 $33 $3f $c0 $0 $21 $3f $c0 $0 $e1 $ff $0 $0 $c3 $ff $0 $0 $e0 $ff $0 $0 
+; Tile index 1bd
+.db $ff $c0 $3f $0 $ff $c0 $3f $0 $5f $c0 $3f $0 $5f $c0 $3f $0 $7 $c0 $3f $0 $7 $c0 $3f $0 $2 $c0 $3f $0 $0 $c0 $3f $0 
+; Tile index 1be
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $d0 $0 $ff $0 $40 $0 $ff $0 $1 $0 $ff $0 
+; Tile index 1bf
+.db $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $ff $0 $7f $0 $ff $0 $f $0 $ff $0 $3 $0 $ff $0 $3 $0 $ff $0 $40 $0 $ff $0 
+; Tile index 1c0
+.db $4 $ff $0 $0 $70 $ff $0 $0 $70 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 1c1
+.db $f $ff $0 $0 $4f $ff $0 $0 $ff $ff $0 $0 $3f $ff $0 $0 $df $ff $0 $0 $5f $ff $0 $0 $1f $ff $0 $0 $df $ff $0 $0 
+; Tile index 1c2
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 1c3
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 1c4
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $b9 $b9 $46 $0 $f8 $f8 $7 $0 $f0 $f0 $f $0 $f8 $f8 $7 $0 
+; Tile index 1c5
+.db $c0 $c0 $3f $0 $f0 $f0 $f $0 $f0 $f0 $f $0 $f8 $f8 $7 $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1c6
+.db $3 $0 $ff $0 $3 $0 $ff $0 $1f $0 $ff $0 $1f $0 $ff $0 $1f $0 $ff $0 $1f $0 $ff $0 $1d $0 $ff $0 $2e $0 $ff $0 
+; Tile index 1c7
+.db $f8 $0 $ff $0 $f8 $0 $ff $0 $f8 $0 $ff $0 $e0 $0 $ff $0 $80 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1c8
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1c9
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1ca
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1cb
+.db $7f $0 $ff $0 $7f $0 $ff $0 $7f $0 $ff $0 $1f $0 $ff $0 $e $0 $ff $0 $7 $1 $fe $0 $11 $0 $fe $0 $ca $2 $fc $0 
+; Tile index 1cc
+.db $c0 $40 $80 $0 $40 $0 $80 $0 $0 $0 $80 $0 $0 $80 $0 $0 $80 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $1 $0 $0 $0 
+; Tile index 1cd
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 1ce
+.db $0 $3f $3f $7f $60 $1f $1f $3f $30 $27 $f $1f $12 $a $9 $7 $7 $1 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 1cf
+.db $3 $ff $fc $ff $1 $fe $fe $ff $1 $fe $fe $ff $0 $7e $ff $ff $d8 $38 $f8 $7 $4 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 1d0
+.db $80 $0 $80 $0 $0 $0 $0 $0 $0 $0 $0 $0 $80 $80 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $3 $0 $0 $0 $3 $0 $0 $0 
+; Tile index 1d1
+.db $11 $0 $0 $0 $7c $0 $0 $0 $ff $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1d2
+.db $fe $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1d3
+.db $4 $1 $7 $3 $7 $3 $1 $3 $2 $1 $1 $3 $82 $2 $3 $1 $c9 $0 $2 $1 $fe $0 $0 $1 $ff $0 $1 $0 $ff $0 $0 $0 
+; Tile index 1d4
+.db $80 $0 $80 $0 $80 $0 $80 $0 $80 $0 $80 $0 $c0 $0 $80 $0 $40 $0 $80 $0 $e0 $80 $0 $0 $60 $80 $0 $0 $c0 $0 $0 $0 
+; Tile index 1d5
+.db $0 $7 $1f $f $0 $7 $1f $f $10 $7 $f $f $10 $7 $f $f $8 $f $7 $f $8 $f $7 $f $8 $f $7 $f $8 $7 $7 $f 
+; Tile index 1d6
+.db $1 $7e $ff $fe $1 $7d $fe $fe $3 $7e $fc $fe $2 $7e $fc $fe $2 $fc $fc $fe $0 $fc $fc $fe $4 $fc $fc $fe $2 $fe $fe $fc 
+; Tile index 1d7
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 1d8
+.db $fe $1 $0 $0 $ff $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1d9
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $80 $7f $0 $0 $80 $7f $0 $0 $c0 $3f $0 $0 $e0 $1f $0 $0 $e0 $1f $0 $0 
+; Tile index 1da
+.db $1 $ff $0 $0 $3 $ff $0 $0 $3 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 1db
+.db $ff $ff $0 $0 $bf $ff $0 $0 $3f $ff $0 $0 $4 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $80 $7f $0 $0 $80 $7f $0 $0 
+; Tile index 1dc
+.db $c0 $ff $0 $0 $80 $ff $0 $0 $c0 $ff $0 $0 $c0 $ff $0 $0 $c0 $ff $0 $0 $e0 $ff $0 $0 $0 $ff $0 $0 $4 $fb $0 $0 
+; Tile index 1dd
+.db $0 $c0 $3f $0 $0 $c0 $3f $0 $0 $c0 $3f $0 $0 $c0 $3f $0 $0 $c0 $3f $0 $0 $c0 $3f $0 $0 $c0 $3f $0 $4 $c4 $3b $0 
+; Tile index 1de
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1df
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1e0
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 1e1
+.db $1f $ff $0 $0 $7 $ff $0 $0 $7 $ff $0 $0 $7 $ff $0 $0 $17 $ff $0 $0 $1f $ff $0 $0 $1f $ff $0 $0 $1f $ff $0 $0 
+; Tile index 1e2
+.db $ff $ff $0 $0 $7f $7f $80 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 1e3
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 1e4
+.db $f8 $f8 $7 $0 $f8 $f8 $7 $0 $f0 $f0 $f $0 $f0 $f0 $f $0 $fe $fe $1 $0 $fe $fe $1 $0 $fd $fd $2 $0 $ff $ff $0 $0 
+; Tile index 1e5
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 1e6
+.db $24 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $2 $2 $fd $0 $3 $3 $fc $0 $7 $7 $f8 $0 $7 $7 $f8 $0 
+; Tile index 1e7
+.db $0 $0 $ff $0 $0 $0 $ff $0 $d $d $f2 $0 $9 $9 $f6 $0 $9f $9f $60 $0 $8f $8f $70 $0 $df $df $20 $0 $fd $fd $2 $0 
+; Tile index 1e8
+.db $0 $0 $ff $0 $0 $0 $ff $0 $c0 $c0 $3f $0 $c0 $c0 $3f $0 $80 $80 $7f $0 $f0 $f0 $f $0 $f8 $f8 $7 $0 $38 $38 $c7 $0 
+; Tile index 1e9
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $7 $7 $f8 $0 $7 $7 $f8 $0 $7 $7 $f8 $0 $7 $7 $f8 $0 
+; Tile index 1ea
+.db $3 $0 $ff $0 $3 $0 $ff $0 $0 $0 $ff $0 $80 $80 $7f $0 $e0 $e0 $1f $0 $c0 $c0 $3f $0 $f0 $f0 $f $0 $f0 $f0 $f $0 
+; Tile index 1eb
+.db $e $2 $fc $0 $fa $0 $fc $0 $fa $0 $fc $0 $6a $0 $fc $0 $0 $0 $fc $0 $4 $4 $f8 $0 $0 $4 $f8 $0 $4 $0 $f8 $0 
+; Tile index 1ec
+.db $0 $0 $0 $0 $1 $0 $0 $0 $1 $0 $0 $0 $3 $0 $0 $0 $2 $0 $0 $0 $18 $0 $0 $0 $1b $0 $0 $0 $1b $0 $0 $0 
+; Tile index 1ed
+.db $0 $0 $0 $0 $20 $0 $0 $0 $34 $0 $0 $0 $7d $0 $0 $0 $71 $0 $0 $0 $f8 $0 $0 $0 $fb $4 $0 $0 $e7 $0 $0 $0 
+; Tile index 1ee
+.db $0 $0 $0 $0 $7 $0 $0 $0 $f $0 $0 $0 $3f $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $7c $3 $0 $0 
+; Tile index 1ef
+.db $1e $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 $fc $0 $0 $0 $fe $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1f0
+.db $7 $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1f1
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1f2
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1f3
+.db $fe $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1f4
+.db $c0 $0 $0 $0 $60 $0 $0 $0 $70 $0 $0 $0 $78 $0 $0 $0 $7c $0 $0 $0 $f8 $0 $0 $0 $b8 $0 $0 $0 $fc $0 $0 $0 
+; Tile index 1f5
+.db $8 $7 $7 $f $8 $7 $7 $f $8 $7 $7 $f $0 $7 $7 $f $0 $7 $7 $f $0 $7 $7 $f $8 $f $f $7 $0 $f $f $7 
+; Tile index 1f6
+.db $2 $fc $fe $fc $0 $f8 $fe $fc $6 $fc $f8 $fc $4 $fc $f8 $fc $4 $f8 $f8 $fc $0 $f8 $f8 $fc $0 $fc $fc $f8 $4 $f4 $f8 $f8 
+; Tile index 1f7
+.db $0 $0 $0 $0 $1 $0 $0 $0 $0 $0 $0 $0 $1 $0 $0 $0 $1 $0 $0 $0 $1 $0 $0 $0 $3 $0 $0 $0 $7 $0 $0 $0 
+; Tile index 1f8
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1f9
+.db $f0 $f $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $f3 $c $0 $0 $f1 $e $0 $0 $f3 $c $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1fa
+.db $7d $82 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 1fb
+.db $80 $7f $0 $0 $80 $7f $0 $0 $0 $ff $0 $0 $4 $fb $0 $0 $e $f1 $0 $0 $a $f5 $0 $0 $e $f1 $0 $0 $8e $71 $0 $0 
+; Tile index 1fc
+.db $6 $f9 $0 $0 $2 $fd $0 $0 $6 $f9 $0 $0 $2 $fd $0 $0 $6 $f9 $0 $0 $7 $f8 $0 $0 $7 $f8 $0 $0 $f $f0 $0 $0 
+; Tile index 1fd
+.db $0 $c0 $3f $0 $0 $c0 $3f $0 $20 $e0 $1f $0 $60 $a0 $1f $0 $40 $a0 $1f $0 $d8 $38 $7 $0 $d9 $39 $6 $0 $d9 $39 $6 $0 
+; Tile index 1fe
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $34 $34 $cb $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 1ff
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $40 $40 $bf $0 $7c $7c $83 $0 $fe $fe $1 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 200
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $20 $df $0 $0 $0 $ff $0 $0 $40 $bf $0 $0 $98 $67 $0 $0 $90 $6f $0 $0 
+; Tile index 201
+.db $1f $ff $0 $0 $3f $ff $0 $0 $1f $ff $0 $0 $1f $ff $0 $0 $1f $ff $0 $0 $3 $ff $0 $0 $1 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 202
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $2f $ff $0 $0 
+; Tile index 203
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 204
+.db $ff $ff $0 $0 $fe $fe $1 $0 $fe $fe $1 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 205
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $80 $80 $7f $0 $81 $81 $7e $0 $c1 $c1 $3e $0 $fb $fb $4 $0 $ff $ff $0 $0 
+; Tile index 206
+.db $27 $27 $d8 $0 $77 $77 $88 $0 $7f $7f $80 $0 $2f $2f $d0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 207
+.db $fe $fe $1 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 208
+.db $38 $38 $c7 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 209
+.db $6 $6 $f9 $0 $ae $ae $51 $0 $3f $3f $c0 $0 $be $be $41 $0 $fe $fe $1 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 20a
+.db $e0 $e0 $1f $0 $60 $60 $9f $0 $ec $ec $13 $0 $7c $7c $83 $0 $7c $7c $83 $0 $7c $7c $83 $0 $f0 $f0 $f $0 $f8 $f8 $7 $0 
+; Tile index 20b
+.db $0 $0 $f8 $0 $0 $0 $f8 $0 $8 $8 $f0 $0 $0 $8 $f0 $0 $8 $0 $f0 $0 $0 $0 $f0 $0 $10 $10 $e0 $0 $0 $10 $e0 $0 
+; Tile index 20c
+.db $1b $0 $0 $0 $1b $0 $0 $0 $1b $0 $0 $0 $17 $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 
+; Tile index 20d
+.db $f0 $0 $0 $0 $ff $0 $0 $0 $eb $0 $0 $0 $e1 $0 $0 $0 $ee $10 $0 $0 $fb $10 $0 $0 $fb $0 $0 $0 $ff $0 $0 $0 
+; Tile index 20e
+.db $78 $7 $0 $0 $f0 $f $0 $0 $f0 $f $0 $0 $f0 $f $0 $0 $f0 $f $0 $0 $f8 $7 $0 $0 $fc $3 $0 $0 $ff $0 $0 $0 
+; Tile index 20f
+.db $7d $80 $0 $0 $f $f0 $0 $0 $f $f0 $0 $0 $7 $f8 $0 $0 $7 $f8 $0 $0 $f $f0 $0 $0 $fb $0 $0 $0 $f7 $0 $0 $0 
+; Tile index 210
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 211
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 212
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 213
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 214
+.db $fe $0 $0 $0 $fe $0 $0 $0 $d8 $0 $0 $0 $d0 $0 $0 $0 $d0 $0 $0 $0 $d8 $0 $0 $0 $df $0 $0 $0 $df $0 $0 $0 
+; Tile index 215
+.db $0 $f $f $7 $8 $7 $f $7 $0 $7 $f $7 $8 $7 $f $7 $0 $7 $f $7 $8 $b $7 $7 $8 $b $7 $7 $8 $3 $7 $7 
+; Tile index 216
+.db $8 $f8 $f0 $f8 $0 $f0 $f0 $f8 $8 $f8 $f8 $f0 $8 $e8 $f0 $f0 $18 $f0 $e0 $f0 $10 $f0 $e0 $f0 $0 $e0 $e0 $f0 $10 $f0 $f0 $e0 
+; Tile index 217
+.db $7 $0 $0 $0 $7 $0 $0 $0 $7 $0 $0 $0 $3 $0 $0 $0 $3 $0 $0 $0 $7 $0 $0 $0 $7 $0 $0 $0 $7 $0 $0 $0 
+; Tile index 218
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 219
+.db $f3 $c $0 $0 $f1 $e $0 $0 $f3 $c $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 21a
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fb $0 $0 $0 $fb $0 $0 $0 $fb $0 $0 $0 $ff $0 $0 $0 
+; Tile index 21b
+.db $8c $73 $0 $0 $18 $e7 $0 $0 $38 $c7 $0 $0 $bf $40 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $35 $ca $0 $0 $7c $83 $0 $0 
+; Tile index 21c
+.db $3f $c0 $0 $0 $7f $80 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fd $0 $0 $0 
+; Tile index 21d
+.db $ff $1f $0 $0 $ff $1f $0 $0 $fe $1f $0 $0 $ef $1f $0 $0 $e3 $1f $0 $0 $e6 $1f $0 $0 $fe $f $0 $0 $d0 $f $0 $0 
+; Tile index 21e
+.db $ff $ff $0 $0 $bf $ff $0 $0 $3f $ff $0 $0 $9a $ff $0 $0 $0 $ff $0 $0 $40 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 21f
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ef $ff $0 $0 $ff $ff $0 $0 $db $ff $0 $0 $2f $ff $0 $0 $7 $ff $0 $0 $3 $ff $0 $0 
+; Tile index 220
+.db $d0 $2f $0 $0 $80 $7f $0 $0 $a0 $5f $0 $0 $c0 $3f $0 $0 $c0 $3f $0 $0 $80 $7f $0 $0 $80 $7f $0 $0 $80 $7f $0 $0 
+; Tile index 221
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 222
+.db $1f $ff $0 $0 $17 $ff $0 $0 $17 $ff $0 $0 $3f $ff $0 $0 $3f $ff $0 $0 $3f $ff $0 $0 $1b $ff $0 $0 $f $ff $0 $0 
+; Tile index 223
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 224
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $fc $ff $0 $0 
+; Tile index 225
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $3f $ff $0 $0 
+; Tile index 226
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 227
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 228
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 229
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $fe $fe $1 $0 $fe $fe $1 $0 
+; Tile index 22a
+.db $f0 $f0 $f $0 $c0 $c0 $3f $0 $e0 $e0 $1f $0 $e0 $e0 $1f $0 $e0 $e0 $1f $0 $c0 $c0 $3f $0 $0 $0 $ff $0 $0 $0 $ff $0 
+; Tile index 22b
+.db $10 $0 $e0 $0 $10 $0 $e0 $0 $0 $0 $e0 $0 $0 $0 $e0 $0 $20 $20 $c0 $0 $0 $20 $c0 $0 $0 $20 $c0 $0 $0 $20 $c0 $0 
+; Tile index 22c
+.db $1f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $6f $0 $0 $0 $ef $0 $0 $0 $df $0 $0 $0 
+; Tile index 22d
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 22e
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fe $1 $0 $0 $fc $3 $0 $0 $fb $4 $0 $0 
+; Tile index 22f
+.db $f7 $0 $0 $0 $e7 $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 230
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 231
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 232
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 233
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 234
+.db $cf $0 $0 $0 $ee $0 $0 $0 $ec $0 $0 $0 $ec $0 $0 $0 $ef $0 $0 $0 $ef $0 $0 $0 $fb $4 $0 $0 $f3 $4 $0 $0 
+; Tile index 235
+.db $c $7 $3 $7 $c $7 $3 $7 $4 $7 $3 $7 $4 $7 $3 $7 $4 $3 $3 $7 $84 $3 $3 $7 $c4 $3 $3 $7 $c4 $3 $3 $7 
+; Tile index 236
+.db $30 $e0 $c0 $e0 $20 $c0 $c0 $e0 $20 $e0 $e0 $c0 $0 $c0 $e0 $c0 $40 $c0 $80 $c0 $0 $80 $80 $c0 $40 $80 $c0 $80 $80 $80 $0 $80 
+; Tile index 237
+.db $7 $0 $0 $0 $7 $0 $0 $0 $7 $0 $0 $0 $7 $0 $0 $0 $7 $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $1f $0 $0 $0 
+; Tile index 238
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 239
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 23a
+.db $f7 $0 $0 $0 $f7 $0 $0 $0 $f7 $0 $0 $0 $f7 $0 $0 $0 $e7 $0 $0 $0 $c7 $0 $0 $0 $c7 $0 $0 $0 $87 $0 $0 $0 
+; Tile index 23b
+.db $7f $80 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 23c
+.db $ff $0 $0 $0 $fe $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fd $0 $0 $0 $ff $0 $0 $0 
+; Tile index 23d
+.db $d0 $f $0 $0 $10 $f $0 $0 $90 $f $0 $0 $c0 $f $0 $0 $c0 $f $0 $0 $c8 $7 $0 $0 $e8 $7 $0 $0 $c8 $7 $0 $0 
+; Tile index 23e
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 23f
+.db $3 $ff $0 $0 $3 $ff $0 $0 $3 $ff $0 $0 $3 $ff $0 $0 $3 $ff $0 $0 $7 $ff $0 $0 $7 $ff $0 $0 $3 $ff $0 $0 
+; Tile index 240
+.db $0 $ff $0 $0 $40 $bf $0 $0 $40 $bf $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $90 $6f $0 $0 $98 $67 $0 $0 $ba $45 $0 $0 
+; Tile index 241
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $70 $8f $0 $0 $e0 $1f $0 $0 $c0 $3f $0 $0 
+; Tile index 242
+.db $3 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 243
+.db $ff $ff $0 $0 $7b $ff $0 $0 $13 $ff $0 $0 $5 $ff $0 $0 $20 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 244
+.db $f0 $ff $0 $0 $f0 $ff $0 $0 $f0 $ff $0 $0 $f0 $ff $0 $0 $50 $ff $0 $0 $0 $ff $0 $0 $8 $ff $0 $0 $8 $ff $0 $0 
+; Tile index 245
+.db $7 $ff $0 $0 $7 $ff $0 $0 $7 $ff $0 $0 $4 $ff $0 $0 $6 $ff $0 $0 $2 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 246
+.db $ff $ff $0 $0 $df $ff $0 $0 $f $ff $0 $0 $4f $ff $0 $0 $1f $ff $0 $0 $1f $ff $0 $0 $3f $ff $0 $0 $1f $ff $0 $0 
+; Tile index 247
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 248
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 249
+.db $fe $fe $1 $0 $f6 $f6 $9 $0 $ff $ff $0 $0 $fd $fd $2 $0 $f3 $f3 $c $0 $fc $fc $3 $0 $f8 $f8 $7 $0 $f8 $f8 $7 $0 
+; Tile index 24a
+.db $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $80 $80 $7f $0 $0 $0 $ff $0 $80 $80 $7f $0 $7 $7 $f8 $0 $27 $27 $d8 $0 
+; Tile index 24b
+.db $0 $20 $c0 $0 $20 $20 $c0 $0 $0 $20 $c0 $0 $20 $0 $c0 $0 $40 $40 $80 $0 $80 $c0 $0 $0 $c6 $80 $0 $0 $96 $80 $0 $0 
+; Tile index 24c
+.db $ef $0 $0 $0 $e7 $0 $0 $0 $e7 $0 $0 $0 $77 $0 $0 $0 $7b $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $3f $0 $0 $0 
+; Tile index 24d
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 24e
+.db $fe $1 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 24f
+.db $fd $0 $0 $0 $fb $0 $0 $0 $fb $0 $0 $0 $f1 $0 $0 $0 $f3 $0 $0 $0 $fb $0 $0 $0 $fb $0 $0 $0 $ff $0 $0 $0 
+; Tile index 250
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 251
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 252
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 253
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 254
+.db $f7 $0 $0 $0 $f7 $0 $0 $0 $f7 $0 $0 $0 $f8 $3 $0 $0 $f9 $3 $0 $0 $fa $1 $0 $0 $fa $1 $0 $0 $fa $1 $0 $0 
+; Tile index 255
+.db $c4 $3 $3 $7 $c0 $2 $3 $7 $c3 $2 $2 $7 $c0 $2 $2 $7 $65 $84 $7 $2 $63 $84 $4 $2 $72 $82 $6 $0 $72 $80 $0 $0 
+; Tile index 256
+.db $0 $0 $0 $80 $80 $0 $80 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $2 $0 $0 $0 
+; Tile index 257
+.db $f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $9f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 258
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 259
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $de $0 $0 $0 $fe $0 $0 $0 $ff $0 $0 $0 
+; Tile index 25a
+.db $c7 $0 $0 $0 $8f $0 $0 $0 $f $0 $0 $0 $7 $0 $0 $0 $7 $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 
+; Tile index 25b
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 25c
+.db $ff $0 $0 $0 $ff $0 $0 $0 $fd $0 $0 $0 $ff $0 $0 $0 $f8 $0 $0 $0 $f0 $0 $0 $0 $f0 $0 $0 $0 $f0 $0 $0 $0 
+; Tile index 25d
+.db $c8 $7 $0 $0 $8 $7 $0 $0 $8 $7 $0 $0 $0 $f $0 $0 $10 $f $0 $0 $10 $f $0 $0 $20 $1f $0 $0 $20 $1f $0 $0 
+; Tile index 25e
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 25f
+.db $1 $ff $0 $0 $3 $ff $0 $0 $1 $ff $0 $0 $1 $ff $0 $0 $3 $ff $0 $0 $7 $ff $0 $0 $3 $ff $0 $0 $7 $ff $0 $0 
+; Tile index 260
+.db $ff $0 $0 $0 $e0 $1f $0 $0 $f0 $f $0 $0 $f4 $b $0 $0 $fe $1 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 261
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $10 $ef $0 $0 $f0 $f $0 $0 $c0 $3f $0 $0 $f0 $f $0 $0 
+; Tile index 262
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 263
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 264
+.db $1e $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 265
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $7 $ff $0 $0 
+; Tile index 266
+.db $7f $ff $0 $0 $7f $ff $0 $0 $7f $ff $0 $0 $7f $ff $0 $0 $7f $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 267
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 268
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 269
+.db $f8 $f8 $7 $0 $fc $fc $3 $0 $fd $fd $2 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 26a
+.db $27 $27 $d8 $0 $ff $ff $0 $0 $ff $ff $0 $0 $fe $fe $1 $0 $fd $fd $2 $0 $fc $fc $3 $0 $ff $ff $0 $0 $fe $fe $1 $0 
+; Tile index 26b
+.db $17 $80 $0 $0 $83 $80 $0 $0 $bb $80 $0 $0 $9b $80 $0 $0 $9d $80 $0 $0 $9d $80 $0 $0 $8f $80 $0 $0 $8f $80 $0 $0 
+; Tile index 26c
+.db $3f $0 $0 $0 $3f $0 $0 $0 $9f $0 $0 $0 $9f $0 $0 $0 $cf $0 $0 $0 $cf $0 $0 $0 $e7 $0 $0 $0 $e7 $0 $0 $0 
+; Tile index 26d
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 26e
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 26f
+.db $ff $0 $0 $0 $ff $0 $0 $0 $dc $0 $0 $0 $cb $0 $0 $0 $c0 $0 $0 $0 $c7 $0 $0 $0 $c1 $0 $0 $0 $d3 $0 $0 $0 
+; Tile index 270
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 271
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 272
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 273
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 274
+.db $fc $1 $0 $0 $fd $0 $0 $0 $fd $0 $0 $0 $fd $0 $0 $0 $fd $0 $0 $0 $fd $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 
+; Tile index 275
+.db $70 $80 $0 $0 $71 $80 $0 $0 $31 $c0 $0 $0 $b3 $c0 $0 $0 $b3 $c0 $0 $0 $d7 $e0 $0 $0 $57 $e0 $0 $0 $cf $60 $0 $0 
+; Tile index 276
+.db $0 $0 $0 $0 $c5 $0 $0 $0 $f7 $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 277
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 278
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 279
+.db $f6 $0 $0 $0 $fe $0 $0 $0 $f0 $0 $0 $0 $70 $0 $0 $0 $78 $0 $0 $0 $98 $0 $0 $0 $b0 $0 $0 $0 $50 $0 $0 $0 
+; Tile index 27a
+.db $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $7 $0 $0 $0 
+; Tile index 27b
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 27c
+.db $f0 $0 $0 $0 $f0 $0 $0 $0 $f0 $0 $0 $0 $f0 $0 $0 $0 $e0 $0 $0 $0 $e0 $0 $0 $0 $e0 $0 $0 $0 $e0 $0 $0 $0 
+; Tile index 27d
+.db $20 $1f $0 $0 $20 $1f $0 $0 $20 $1f $0 $0 $20 $1f $0 $0 $38 $7 $0 $0 $30 $f $0 $0 $38 $7 $0 $0 $3e $1 $0 $0 
+; Tile index 27e
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 27f
+.db $7 $ff $0 $0 $7 $ff $0 $0 $3 $ff $0 $0 $3 $ff $0 $0 $3 $ff $0 $0 $3 $ff $0 $0 $3 $ff $0 $0 $3 $ff $0 $0 
+; Tile index 280
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 281
+.db $f8 $7 $0 $0 $f8 $7 $0 $0 $e0 $1f $0 $0 $f0 $f $0 $0 $e0 $1f $0 $0 $e0 $1f $0 $0 $c0 $3f $0 $0 $e0 $1f $0 $0 
+; Tile index 282
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 283
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 284
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 285
+.db $7 $ff $0 $0 $7 $ff $0 $0 $f $ff $0 $0 $7 $ff $0 $0 $3 $ff $0 $0 $7 $ff $0 $0 $7 $ff $0 $0 $7 $ff $0 $0 
+; Tile index 286
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 287
+.db $ff $ff $0 $0 $ff $ff $0 $0 $fd $fd $2 $0 $fd $fd $2 $0 $fd $fd $2 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 288
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 289
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 28a
+.db $fc $fc $3 $0 $fe $fe $1 $0 $fe $fe $1 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 28b
+.db $cf $80 $0 $0 $4f $0 $80 $0 $c7 $80 $0 $0 $c7 $c0 $0 $0 $c7 $c0 $0 $0 $e7 $c0 $0 $0 $43 $60 $80 $0 $73 $60 $80 $0 
+; Tile index 28c
+.db $f7 $0 $0 $0 $f3 $0 $0 $0 $fb $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $bf $0 $0 $0 
+; Tile index 28d
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 28e
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 $fc $0 $0 $0 
+; Tile index 28f
+.db $93 $0 $0 $0 $8f $0 $0 $0 $81 $0 $0 $0 $1 $0 $0 $0 $1 $0 $0 $0 $4 $0 $0 $0 $3 $0 $0 $0 $7 $0 $0 $0 
+; Tile index 290
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 291
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 292
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 293
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 294
+.db $fe $0 $0 $0 $fe $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 295
+.db $ef $40 $0 $0 $ef $40 $0 $0 $9f $40 $0 $0 $5f $0 $0 $0 $1f $0 $0 $0 $3f $0 $0 $0 $3f $0 $0 $0 $7f $0 $0 $0 
+; Tile index 296
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 297
+.db $ff $0 $0 $0 $ff $0 $0 $0 $fb $0 $0 $0 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 298
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fd $0 $0 $0 $fc $0 $0 $0 $fc $0 $0 $0 $fc $0 $0 $0 
+; Tile index 299
+.db $c0 $0 $0 $0 $c0 $0 $0 $0 $e0 $0 $0 $0 $c0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 29a
+.db $7 $0 $0 $0 $f $0 $0 $0 $e $0 $0 $0 $c $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 $f $0 $0 $0 
+; Tile index 29b
+.db $f7 $0 $0 $0 $f7 $0 $0 $0 $6f $0 $0 $0 $fd $0 $0 $0 $ff $0 $0 $0 $fc $0 $0 $0 $e2 $0 $0 $0 $b0 $0 $0 $0 
+; Tile index 29c
+.db $80 $0 $0 $0 $80 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 29d
+.db $3c $3 $0 $0 $38 $7 $0 $0 $38 $7 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 
+; Tile index 29e
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $98 $67 $0 $0 $9c $63 $0 $0 $f8 $7 $0 $0 $fa $5 $0 $0 $f8 $7 $0 $0 
+; Tile index 29f
+.db $3 $ff $0 $0 $3 $ff $0 $0 $7 $ff $0 $0 $f $ff $0 $0 $7 $ff $0 $0 $f $ff $0 $0 $f $ff $0 $0 $f $ff $0 $0 
+; Tile index 2a0
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2a1
+.db $c0 $3f $0 $0 $c0 $3f $0 $0 $c0 $3f $0 $0 $c0 $3f $0 $0 $c7 $38 $0 $0 $c7 $38 $0 $0 $e7 $18 $0 $0 $cf $30 $0 $0 
+; Tile index 2a2
+.db $0 $ff $0 $0 $60 $9f $0 $0 $f0 $f $0 $0 $f4 $b $0 $0 $fc $3 $0 $0 $fe $1 $0 $0 $fc $3 $0 $0 $f8 $7 $0 $0 
+; Tile index 2a3
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2a4
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2a5
+.db $f $ff $0 $0 $7 $ff $0 $0 $f $ff $0 $0 $f $ff $0 $0 $f $ff $0 $0 $1f $ff $0 $0 $2f $ff $0 $0 $f $ff $0 $0 
+; Tile index 2a6
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2a7
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2a8
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2a9
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $5f $5f $a0 $0 $67 $67 $98 $0 
+; Tile index 2aa
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $fe $fe $1 $0 $fc $fc $3 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2ab
+.db $e1 $f0 $0 $0 $f9 $f0 $0 $0 $b0 $b8 $40 $0 $38 $3c $c0 $0 $3e $3c $c0 $0 $3e $3f $c0 $0 $fc $ff $0 $0 $f8 $ff $0 $0 
+; Tile index 2ac
+.db $bf $0 $0 $0 $ef $0 $0 $0 $cf $0 $0 $0 $e7 $0 $0 $0 $77 $0 $0 $0 $ff $0 $0 $0 $33 $c0 $0 $0 $c $f0 $0 $0 
+; Tile index 2ad
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2ae
+.db $fc $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 $fc $0 $0 $0 $fc $0 $0 $0 $fc $0 $0 $0 $fc $0 $0 $0 $f8 $0 $0 $0 
+; Tile index 2af
+.db $6 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $15 $0 $0 $0 $7 $0 $0 $0 $23 $0 $0 $0 $34 $0 $0 $0 
+; Tile index 2b0
+.db $ff $0 $0 $0 $7f $0 $0 $0 $ff $0 $0 $0 $3f $0 $0 $0 $3f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2b1
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2b2
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2b3
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2b4
+.db $fe $0 $0 $0 $fc $0 $0 $0 $fc $0 $0 $0 $f9 $0 $0 $0 $f8 $0 $0 $0 $f8 $0 $0 $0 $f8 $0 $0 $0 $fa $0 $0 $0 
+; Tile index 2b5
+.db $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $7f $0 $0 $0 $3f $0 $0 $0 $7f $0 $0 $0 $5f $0 $20 $0 
+; Tile index 2b6
+.db $ff $0 $0 $0 $f7 $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $f7 $0 $0 $0 
+; Tile index 2b7
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fd $0 $0 $0 $ff $0 $0 $0 $fb $0 $0 $0 $fb $0 $0 $0 $fb $0 $0 $0 
+; Tile index 2b8
+.db $f8 $0 $0 $0 $fa $0 $0 $0 $fc $0 $0 $0 $f8 $0 $0 $0 $f0 $0 $0 $0 $c0 $0 $0 $0 $f0 $0 $0 $0 $e4 $0 $0 $0 
+; Tile index 2b9
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2ba
+.db $f $0 $0 $0 $f $0 $0 $0 $b $0 $0 $0 $2 $0 $0 $0 $3 $0 $0 $0 $2 $0 $0 $0 $4 $0 $0 $0 $4 $0 $0 $0 
+; Tile index 2bb
+.db $e2 $0 $0 $0 $c0 $0 $0 $0 $b0 $0 $0 $0 $38 $0 $0 $0 $4 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2bc
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2bd
+.db $7f $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2be
+.db $fe $1 $0 $0 $fe $1 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fe $1 $0 $0 $fc $3 $0 $0 $fc $3 $0 $0 $fc $3 $0 $0 
+; Tile index 2bf
+.db $f $ff $0 $0 $e $fe $1 $0 $f $ff $0 $0 $e $fe $1 $0 $e $fe $1 $0 $e $fe $1 $0 $1e $fe $1 $0 $1e $fe $1 $0 
+; Tile index 2c0
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2c1
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2c2
+.db $f8 $7 $0 $0 $fc $3 $0 $0 $fe $1 $0 $0 $fc $3 $0 $0 $f0 $f $0 $0 $f0 $f $0 $0 $f1 $e $0 $0 $f8 $7 $0 $0 
+; Tile index 2c3
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2c4
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2c5
+.db $7 $ff $0 $0 $0 $ff $0 $0 $3 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2c6
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $3f $ff $0 $0 $17 $ff $0 $0 $7 $ff $0 $0 $7 $ff $0 $0 $f $ff $0 $0 
+; Tile index 2c7
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2c8
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2c9
+.db $e3 $e3 $1c $0 $e7 $e7 $18 $0 $fb $fb $4 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2ca
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $f7 $f7 $8 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2cb
+.db $f8 $ff $0 $0 $f8 $ff $0 $0 $fc $ff $0 $0 $fc $ff $0 $0 $f0 $ff $0 $0 $f8 $ff $0 $0 $f0 $ff $0 $0 $f0 $ff $0 $0 
+; Tile index 2cc
+.db $7 $f8 $0 $0 $7 $f8 $0 $0 $3 $fc $0 $0 $3 $fc $0 $0 $7 $f8 $0 $0 $7 $f8 $0 $0 $f $f0 $0 $0 $3 $fc $0 $0 
+; Tile index 2cd
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2ce
+.db $f8 $0 $0 $0 $f8 $0 $0 $0 $f8 $0 $0 $0 $f8 $0 $0 $0 $f0 $0 $0 $0 $f0 $0 $0 $0 $f1 $0 $0 $0 $f0 $0 $0 $0 
+; Tile index 2cf
+.db $7f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $1f $0 $0 $0 $bf $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2d0
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fd $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2d1
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2d2
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2d3
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $f7 $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2d4
+.db $fe $0 $0 $0 $f8 $0 $0 $0 $7c $0 $0 $0 $fd $0 $0 $0 $fe $0 $0 $0 $fe $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2d5
+.db $7f $20 $0 $0 $70 $0 $0 $0 $4b $0 $0 $0 $81 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $dc $0 $0 $0 $ce $0 $0 $0 
+; Tile index 2d6
+.db $f7 $0 $0 $0 $dd $0 $0 $0 $3d $0 $0 $0 $1 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2d7
+.db $d7 $0 $0 $0 $c7 $0 $0 $0 $c3 $0 $0 $0 $d2 $0 $0 $0 $40 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2d8
+.db $f0 $0 $0 $0 $36 $0 $0 $0 $7e $0 $0 $0 $e0 $0 $0 $0 $a0 $0 $0 $0 $40 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2d9
+.db $0 $0 $0 $0 $80 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2da
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2db
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2dc
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2dd
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2de
+.db $fc $3 $0 $0 $fe $1 $0 $0 $fc $3 $0 $0 $fc $3 $0 $0 $fe $1 $0 $0 $f8 $7 $0 $0 $f8 $7 $0 $0 $f8 $7 $0 $0 
+; Tile index 2df
+.db $1e $fe $1 $0 $1e $fe $1 $0 $1c $fc $3 $0 $3c $fc $3 $0 $1c $fc $3 $0 $1e $fe $1 $0 $1e $fe $1 $0 $1e $fe $1 $0 
+; Tile index 2e0
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2e1
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2e2
+.db $f0 $f $0 $0 $f0 $f $0 $0 $f0 $f $0 $0 $f0 $f $0 $0 $e0 $1f $0 $0 $e0 $1f $0 $0 $f2 $d $0 $0 $f8 $7 $0 $0 
+; Tile index 2e3
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2e4
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2e5
+.db $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2e6
+.db $7 $ff $0 $0 $3 $ff $0 $0 $1 $ff $0 $0 $1 $ff $0 $0 $3 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2e7
+.db $fe $ff $0 $0 $fc $ff $0 $0 $fc $ff $0 $0 $fc $ff $0 $0 $fc $ff $0 $0 $1c $ff $0 $0 $c $ff $0 $0 $8 $ff $0 $0 
+; Tile index 2e8
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $7f $ff $0 $0 $ff $ff $0 $0 $7f $ff $0 $0 
+; Tile index 2e9
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2ea
+.db $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 $ff $ff $0 $0 
+; Tile index 2eb
+.db $f8 $ff $0 $0 $f4 $ff $0 $0 $fe $ff $0 $0 $f4 $ff $0 $0 $f8 $ff $0 $0 $fc $ff $0 $0 $fc $ff $0 $0 $f8 $ff $0 $0 
+; Tile index 2ec
+.db $7 $f8 $0 $0 $7 $f8 $0 $0 $7 $f8 $0 $0 $1 $fe $0 $0 $1 $fe $0 $0 $4 $fb $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 
+; Tile index 2ed
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $e3 $1c $0 $0 $1 $fe $0 $0 $0 $ff $0 $0 
+; Tile index 2ee
+.db $e0 $0 $0 $0 $e0 $0 $0 $0 $e4 $0 $0 $0 $e1 $0 $0 $0 $c1 $0 $0 $0 $c8 $0 $0 $0 $c2 $0 $0 $0 $c2 $0 $0 $0 
+; Tile index 2ef
+.db $bf $0 $0 $0 $bf $0 $0 $0 $7f $0 $0 $0 $7f $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $7f $0 $0 $0 
+; Tile index 2f0
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2f1
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2f2
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2f3
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2f4
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $fc $0 $0 $0 $fd $0 $0 $0 
+; Tile index 2f5
+.db $c0 $0 $0 $0 $fb $0 $0 $0 $fc $0 $0 $0 $fc $0 $0 $0 $de $0 $0 $0 $ff $0 $0 $0 $7e $0 $0 $0 $bf $0 $0 $0 
+; Tile index 2f6
+.db $0 $0 $0 $0 $a0 $0 $0 $0 $e4 $0 $0 $0 $c4 $0 $0 $0 $58 $0 $0 $0 $80 $0 $0 $0 $18 $0 $0 $0 $d $0 $0 $0 
+; Tile index 2f7
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $1 $0 $0 $0 $0 $0 $0 $0 $20 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2f8
+.db $0 $0 $0 $0 $0 $0 $0 $0 $80 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2f9
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2fa
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2fb
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 
+; Tile index 2fc
+.db $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $0 $1 $0 $0 $0 $1 $0 $0 $0 $1 $0 $0 $0 $1 $0 $0 $0 
+; Tile index 2fd
+.db $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 $ff $0 $0 $0 
+; Tile index 2fe
+.db $f8 $7 $0 $0 $f8 $7 $0 $0 $f8 $7 $0 $0 $f8 $7 $0 $0 $f8 $7 $0 $0 $f0 $f $0 $0 $f0 $f $0 $0 $f0 $f $0 $0 
+; Tile index 2ff
+.db $36 $fe $1 $0 $36 $fe $1 $0 $e $fe $1 $0 $e $fe $1 $0 $3e $fe $1 $0 $38 $f8 $7 $0 $30 $f0 $f $0 $38 $f8 $7 $0 
+ImageDataEnd:
+
+Image:
+.dw $000 $001 $002 $003 $004 $005 $006 $007 $008 $009 $00a $00b $00c $00d $00e $00f $0010 $0011 $0012 $0013 $0014 $0015 $0016 $0017 $0018 $0019 $001a $001b $001c $001d $001e $001f 
+.dw $0020 $0021 $0022 $0023 $0024 $0025 $0026 $0027 $0028 $0029 $002a $002b $002c $002d $002e $002f $0030 $0031 $0032 $0033 $0034 $0035 $0036 $0037 $0038 $0039 $003a $003b $003c $003d $003e $003f 
+.dw $0040 $0041 $0042 $0043 $0044 $0045 $0046 $0047 $0048 $0049 $004a $004b $004c $004d $004e $004f $0050 $0051 $0052 $0053 $0054 $0055 $0056 $0057 $0058 $0059 $005a $005b $005c $005d $005e $005f 
+.dw $0060 $0061 $0062 $0063 $0064 $0065 $0066 $0067 $0068 $0069 $006a $006b $006c $006d $006e $006f $0070 $0071 $0072 $0073 $0074 $0075 $0076 $0077 $0078 $0079 $007a $007b $007c $007d $007e $007f 
+.dw $0080 $0081 $0082 $0083 $0084 $0085 $0086 $0087 $0088 $0089 $008a $008b $008c $008d $008e $008f $0090 $0091 $0092 $0093 $0094 $0095 $0096 $0097 $0098 $0099 $009a $009b $009c $009d $009e $009f 
+.dw $00a0 $00a1 $00a2 $00a3 $00a4 $00a5 $00a6 $00a7 $00a8 $00a9 $00aa $00ab $00ac $00ad $00ae $00af $00b0 $00b1 $00b2 $00b3 $00b4 $00b5 $00b6 $00b7 $00b8 $00b9 $00ba $00bb $00bc $00bd $00be $00bf 
+.dw $00c0 $00c1 $00c2 $00c3 $00c4 $00c5 $00c6 $00c7 $00c8 $00c9 $00ca $00cb $00cc $00cd $00ce $00cf $00d0 $00d1 $00d2 $00d3 $00d4 $00d5 $00d6 $00d7 $00d8 $00d9 $00da $00db $00dc $00dd $00de $00df 
+.dw $00e0 $00e1 $00e2 $00e3 $00e4 $00e5 $00e6 $00e7 $00e8 $00e9 $00ea $00eb $00ec $00ed $00ee $00ef $00f0 $00f1 $00f2 $00f3 $00f4 $00f5 $00f6 $00f7 $00f8 $00f9 $00fa $00fb $00fc $00fd $00fe $00ff 
+.dw $0100 $0101 $0102 $0103 $0104 $0105 $0106 $0107 $0108 $0109 $010a $010b $010c $010d $010e $010f $0110 $0111 $0112 $0113 $0114 $0115 $0116 $0117 $0118 $0119 $011a $011b $011c $011d $011e $011f 
+.dw $0120 $0121 $0122 $0123 $0124 $0125 $0126 $0127 $0128 $0129 $012a $012b $012c $012d $012e $012f $0130 $0131 $0132 $0133 $0134 $0135 $0136 $0137 $0138 $0139 $013a $013b $013c $013d $013e $013f 
+.dw $0140 $0141 $0142 $0143 $0144 $0145 $0146 $0147 $0148 $0149 $014a $014b $014c $014d $014e $014f $0150 $0151 $0152 $0153 $0154 $0155 $0156 $0157 $0158 $0159 $015a $015b $015c $015d $015e $015f 
+.dw $0160 $0161 $0162 $0163 $0164 $0165 $0166 $0167 $0168 $0169 $016a $016b $016c $016d $016e $016f $0170 $0171 $0172 $0173 $0174 $0175 $0176 $0177 $0178 $0179 $017a $017b $017c $017d $017e $017f 
+.dw $0180 $0181 $0182 $0183 $0184 $0185 $0186 $0187 $0188 $0189 $018a $018b $018c $018d $018e $018f $0190 $0191 $0192 $0193 $0194 $0195 $0196 $0197 $0198 $0199 $019a $019b $019c $019d $019e $019f 
+.dw $01a0 $01a1 $01a2 $01a3 $01a4 $01a5 $01a6 $01a7 $01a8 $01a9 $01aa $01ab $01ac $01ad $01ae $01af $01b0 $01b1 $01b2 $01b3 $01b4 $01b5 $01b6 $01b7 $01b8 $01b9 $01ba $01bb $01bc $01bd $01be $01bf 
+.dw $01c0 $01c1 $01c2 $01c3 $01c4 $01c5 $01c6 $01c7 $01c8 $01c9 $01ca $01cb $01cc $01cd $01ce $01cf $01d0 $01d1 $01d2 $01d3 $01d4 $01d5 $01d6 $01d7 $01d8 $01d9 $01da $01db $01dc $01dd $01de $01df 
+.dw $01e0 $01e1 $01e2 $01e3 $01e4 $01e5 $01e6 $01e7 $01e8 $01e9 $01ea $01eb $01ec $01ed $01ee $01ef $01f0 $01f1 $01f2 $01f3 $01f4 $01f5 $01f6 $01f7 $01f8 $01f9 $01fa $01fb $01fc $01fd $01fe $01ff 
+.dw $0200 $0201 $0202 $0203 $0204 $0205 $0206 $0207 $0208 $0209 $020a $020b $020c $020d $020e $020f $0210 $0211 $0212 $0213 $0214 $0215 $0216 $0217 $0218 $0219 $021a $021b $021c $021d $021e $021f 
+.dw $0220 $0221 $0222 $0223 $0224 $0225 $0226 $0227 $0228 $0229 $022a $022b $022c $022d $022e $022f $0230 $0231 $0232 $0233 $0234 $0235 $0236 $0237 $0238 $0239 $023a $023b $023c $023d $023e $023f 
+.dw $0240 $0241 $0242 $0243 $0244 $0245 $0246 $0247 $0248 $0249 $024a $024b $024c $024d $024e $024f $0250 $0251 $0252 $0253 $0254 $0255 $0256 $0257 $0258 $0259 $025a $025b $025c $025d $025e $025f 
+.dw $0260 $0261 $0262 $0263 $0264 $0265 $0266 $0267 $0268 $0269 $026a $026b $026c $026d $026e $026f $0270 $0271 $0272 $0273 $0274 $0275 $0276 $0277 $0278 $0279 $027a $027b $027c $027d $027e $027f 
+.dw $0280 $0281 $0282 $0283 $0284 $0285 $0286 $0287 $0288 $0289 $028a $028b $028c $028d $028e $028f $0290 $0291 $0292 $0293 $0294 $0295 $0296 $0297 $0298 $0299 $029a $029b $029c $029d $029e $029f 
+.dw $02a0 $02a1 $02a2 $02a3 $02a4 $02a5 $02a6 $02a7 $02a8 $02a9 $02aa $02ab $02ac $02ad $02ae $02af $02b0 $02b1 $02b2 $02b3 $02b4 $02b5 $02b6 $02b7 $02b8 $02b9 $02ba $02bb $02bc $02bd $02be $02bf 
+.dw $02c0 $02c1 $02c2 $02c3 $02c4 $02c5 $02c6 $02c7 $02c8 $02c9 $02ca $02cb $02cc $02cd $02ce $02cf $02d0 $02d1 $02d2 $02d3 $02d4 $02d5 $02d6 $02d7 $02d8 $02d9 $02da $02db $02dc $02dd $02de $02df 
+.dw $02e0 $02e1 $02e2 $02e3 $02e4 $02e5 $02e6 $02e7 $02e8 $02e9 $02ea $02eb $02ec $02ed $02ee $02ef $02f0 $02f1 $02f2 $02f3 $02f4 $02f5 $02f6 $02f7 $02f8 $02f9 $02fa $02fb $02fc $02fd $02fe $02ff 
+ImageEnd:

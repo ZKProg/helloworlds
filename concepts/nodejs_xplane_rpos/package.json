@@ -1,0 +1,22 @@
+{
+  "name": "nodetuto",
+  "version": "1.0.0",
+  "description": "A study case for network operations",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "pkg": {
+    "scripts": [
+      "require.js"
+    ],
+    "assets": [
+      "./node_modules/*",
+      "./*"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
